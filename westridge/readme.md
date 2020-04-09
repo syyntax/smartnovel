@@ -1,4 +1,4 @@
-![Westridge University Logo](https://github.com/syyntax/smartnovel/blob/master/westridge_25.png | width=100)
+<img src="https://github.com/syyntax/smartnovel/blob/master/westridge_25.png" width=30%>
 
 # Westridge University
 
