@@ -1,0 +1,116 @@
+{
+    "Accounting (ACCT)": {
+        "ACCT100": [
+            "Accounting I",
+            "Introduction to the purposes of financial accounting statements and the recognition, measurement, and disclosure concepts and methods underlying financial statements. The course focus is on using and interpreting financial statements and on understanding the impact of transactions on assets, liabilities, revenues, and expenses."
+        ],
+        "ACCT101": [
+            "Accounting II",
+            "A continuation of Accounting I, this course includes study of managerial concepts, analysis of financial statements, internal controls, and contemporary accounting standards, practices, and issues. Students must have access to Microsoft Word and Microsoft Excel software."
+        ],
+        "ACCT105": [
+            "Accounting for Non Accounting Majors",
+            "This course is an overview of accounting concepts used by managers in a business environment intended for non-accounting majors with no accounting background. Topics include accounting concepts, users of accounting information, elements and purpose of financial statements, accrual accounting, internal control and basic financial analysis. Students must have access to Microsoft Word and Microsoft Excel software."
+        ],
+        "ACCT202": [
+            "Introduction to Payroll",
+            "This course provides a foundation in payroll accounting, administration, and management. Learn to complete payroll calculations for earnings, taxes, and withholdings; maintain personnel records; and analyze payroll transactions. This course is intended for accounting students and professionals with a need to understand payroll basics."
+        ],
+        "ACCT300": [
+            "Financial Accounting",
+            "As study of financial accounting to expose the student to a wide range of accounting topics. Topics include generally accepted accounting principles, assets and liabilities, debits and credits, accrual and cash based accounting, merchandising and inventory, the accounting cycle, internal controls, capital stock, income reporting, liabilities, cash flow, budgeting, planning and control. Students must have access to Microsoft Word and Microsoft Excel software."
+        ],
+        "ACCT301": [
+            "Intermediate Accounting I",
+            "This course examines the accounting process including the adoption of the International Accounting standards (IAS) and reporting of financial reporting (e.g., balance sheet, income statement, and statement of cash flows). Students must have access to Microsoft Word and Microsoft Excel software."
+        ],
+        "ACCT302": [
+            "Intermediate Accounting II",
+            "Students will study accounting theory and practices associated with corporate accounting issues of pensions, leases, bonds, and investments and earnings per share. Students will also study the effects of time value of money and how it applies to business decisions. An in-depth analysis of liabilities, stockholder’s equity, and accounting changes and errors analysis are also reviewed in this course. Students must have access to Microsoft Word and Microsoft Excel software."
+        ],
+        "ACCT303": [
+            "Intermediate Accounting III",
+            "A survey of the financial reporting process, a detailed study of financial statements, and an analysis of generally accepted accounting principles. Students must have access to Microsoft Word and Microsoft Excel software."
+        ],
+        "ACCT305": [
+            "Accounting Information Systems",
+            "This course applies the practical application of accrual-basis accounting through the use of accounting software. Students will gain experience in integrated software designed to handle general ledger, accounts payable, accounts receivable, financial statement analysis, fixed assets, sales order processing, inventory, and payroll. Students must have access to Microsoft Word and Microsoft Excel software."
+        ],
+        "ACCT400": [
+            "Auditing",
+            "This course examines the role of the auditor in a global business environment. The course covers the scope of auditing, the rules governing the professional ethics of the Certified Public Accountant, the auditing process, and the legal liabilities and responsibilities of an auditor. Students must have access to Microsoft Word and Microsoft Excel software."
+        ],
+        "ACCT401": [
+            "Cost Accounting",
+            "Cost accounting identifies the essential data to managers regarding planning and controlling, costing products and services, and customers. The student studies the basic concepts, analyses, uses, and procedures related to types of costs and costing systems. This course will concentrate on examination of the concepts, theories, principles, and practices of cost accounting. Students will develop quantitative and qualitative methods for analyzing raw data that support the business decision-making process and inventory costing."
+        ],
+        "ACCT406": [
+            "Managerial/Cost Accounting",
+            "Students will analyze how internal accounting information can be used to support management in planning and controlling business activities. Topics covered range from (analysis of) financial statement analysis, job order cost systems, cost-volume-profit analysis, budgeting, performance evaluation using standard costs, differential analysis, and product pricing. Students must have access to Microsoft Word and Microsoft Excel software."
+        ],
+        "ACCT410": [
+            "Governmental and Not-for-Profit Accounting",
+            "This course emphasizes the accounting principles and reporting requirements for government units and not-for-profit entities. Topics include the accounting cycle, budgeting and fund accounting, and accounting for state and local governments, colleges and universities, and for not-for-profit organizations. Students must have access to Microsoft Word and Microsoft Excel software."
+        ],
+        "ACCT415": [
+            "Law for Accountants",
+            "To develop a sound understanding of the nature of law and an appreciation of the role of law within which an Accountant operates. A study of an area of law of particular importance to business, including contracts, sales, negotiable instruments, secured transactions, agency, partnerships, and corporations.Students must have access to Microsoft Word and Microsoft Excel software."
+        ],
+        "ACCT420": [
+            "Individual Federal Taxes",
+            "Students will be introduced to procedures for analyzing tax information on an individual federal tax basis. The following material will be covered in this course: analysis of gross income, income exclusions, adjusted gross income, deductions, exemptions, and credits. Students must have access to Microsoft Word and Microsoft Excel software."
+        ],
+        "ACCT499": [
+            "Senior Seminar in Accounting",
+            "The Capstone course is a senior level course designed to allow the student to review, analyze, and integrate the work the student has completed toward a degree in Accounting. The students will examine a number of real-world cases that relate to auditing and accounting issues, and students will prepare an approved academic project or paper that demonstrates mastery of their program of study in a meaningful culmination of their learning and to assess their level of mastery of the stated outcomes of their degree requirements. Students must complete ALL Core and Major courses prior to this course. Students must have access to Microsoft Word and Microsoft Excel software."
+        ]
+    },
+    "Business (ANLY)": {
+        "ANLY460": [
+            "Applied Analytics I",
+            "This course is designed to provide an understanding of the basics of applied analytics based on principals starting from descriptive statistics, probability, distributions, and hypothesis testing; where sums, counts, frequencies, measures, and probabilities of collected data and occurrences, past or current, are used effectively to support reactive or corrective decisions either on real time or for the future. This course covers using Excel add-in for data analysis as a tool to create, manipulate, and report descriptive analytics outcomes for decision-making."
+        ],
+        "ANLY461": [
+            "Applied Analytics II",
+            "This course further integrates applied business analytics. It continues the examination of the role of statistics and analytics techniques in the interpretation and findings of nonparametric test of hypothesis, analysis of variance ANOVA, correlation, and regression analysis. After completing this course, students are expected to understand diagnosing factors affecting a problem, variables involved, relationships among business variables, and how to generate a prediction model."
+        ],
+        "ANLY462": [
+            "Applied Analytics III"
+        ],
+        "ANLY499": [
+            "Analytics Senior Seminar"
+        ]
+    },
+    "Business (BUSN)": {
+        "BUSN100": [
+            "Basics of Business"
+        ],
+        "BUSN120": [
+            "Real Estate Principles"
+        ],
+        "BUSN121": [
+            "Real Estate Practice"
+        ],
+        "BUSN201": [
+            "Introduction to Construction Management"
+        ],
+        "BUSN220": [
+            "Real Estate Finance"
+        ],
+        "BUSN221": [
+            "Real Estate Appraisal"
+        ],
+        "BUSN222": [
+            "Real Estate Property Management"
+        ],
+        "BUSN235": [
+            "Personal Finance"
+        ],
+        "BUSN250": [
+            "Analytics I"
+        ],
+        "BUSN299": [
+            "Applied Business Solutions"
+        ]
+    }
+}
