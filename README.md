@@ -1,4 +1,4 @@
 # smartnovel
 CTF challenge builders
 
-Test!
+Test123!
