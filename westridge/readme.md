@@ -1,4 +1,5 @@
 ![Westridge University Logo](https://github.com/syyntax/smartnovel/blob/master/westridge_25.png | width=100)
+
 # Westridge University
 
 **Westridge University** is a fictional university from which to theme CTF challenges around.
