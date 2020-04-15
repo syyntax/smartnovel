@@ -1,6 +1,4 @@
-<img src="https://github.com/syyntax/smartnovel/blob/master/hacktics.png">
+<img src="https://github.com/syyntax/smartnovel/blob/master/img/banner.png" width=75%>
 
-# Enemy Hacktics CTF
+# Cyber Hacktics CTF
 CTF challenge builders
-
-Test123!
