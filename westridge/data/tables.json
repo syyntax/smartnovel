@@ -1,0 +1,43 @@
+{
+    "tables": {
+        "countries": [
+            "CREATE TABLE countries (country_id int(11) NOT NULL AUTO_INCREMENT, country_abbrev varchar(8) NOT NULL UNIQUE, PRIMARY KEY (country_id));"
+        ],
+        "states": [
+            "CREATE TABLE states (state_id int(11) NOT NULL AUTO_INCREMENT, state_full varchar(24) NOT NULL UNIQUE, state_abbrev varchar(8) NOT NULL UNIQUE, country_id int(11) NOT NULL, PRIMARY KEY (state_id), CONSTRAINT fk_states_country_id FOREIGN KEY (country_id) REFERENCES countries (country_id) ON DELETE CASCADE);"
+        ],
+        "users": [
+            "CREATE TABLE users (user_id int(11) NOT NULL AUTO_INCREMENT, username varchar(52) NOT NULL UNIQUE, first varchar(52) NOT NULL, last varchar(52) NOT NULL, middle varchar(24), email varchar(52) NOT NULL UNIQUE, street varchar(52) NOT NULL, city varchar(52) NOT NULL, state_id int(11) NOT NULL, zip varchar(10) NOT NULL, gender varchar(8) NOT NULL, dob date NOT NULL, PRIMARY KEY (user_id), CONSTRAINT fk_users_state_id FOREIGN KEY (state_id) REFERENCES states (state_id) ON DELETE CASCADE);"
+        ],
+        "roles": [
+            "CREATE TABLE roles (role_id int(11) NOT NULL AUTO_INCREMENT, role_name varchar(56) NOT NULL UNIQUE, PRIMARY KEY (role_id));"
+        ],
+        "roles_assigned": [
+            "CREATE TABLE roles_assigned (role_assigned_id int(11) NOT NULL AUTO_INCREMENT, user_id int(11) NOT NULL, role_id int(11) NOT NULL, PRIMARY KEY (role_assigned_id), CONSTRAINT fk_roles_assigned_user_id FOREIGN KEY (user_id) REFERENCES users (user_id) ON DELETE CASCADE, CONSTRAINT fk_roles_assigned_role_id FOREIGN KEY (role_id) REFERENCES roles (role_id) ON DELETE CASCADE);"
+        ],
+        "passwords": [
+            "CREATE TABLE passwords (password_id int(11) NOT NULL AUTO_INCREMENT, password varchar(256) NOT NULL UNIQUE, user_id int(11) NOT NULL UNIQUE, PRIMARY KEY (password_id), CONSTRAINT fk_passwords_user_id FOREIGN KEY (user_id) REFERENCES users (user_id) ON DELETE CASCADE);"
+        ],
+        "degree_types": [
+            "CREATE TABLE degree_types (degree_type_id int(11) NOT NULL AUTO_INCREMENT, degree_type_name varchar(56) NOT NULL UNIQUE, ttl_sem_hrs int(4) NOT NULL, PRIMARY KEY (degree_type_id));"
+        ],
+        "programs": [
+            "CREATE TABLE programs (program_id int(11) NOT NULL AUTO_INCREMENT, program_name varchar(56) NOT NULL UNIQUE, degree_type_id int(11) NOT NULL, PRIMARY KEY (program_id), CONSTRAINT fk_programs_degree_type_id FOREIGN KEY (degree_type_id) REFERENCES degree_types (degree_type_id) ON DELETE CASCADE);"
+        ],
+        "payment_statuses": [
+            "CREATE TABLE payment_statuses (payment_status_id int(11) NOT NULL AUTO_INCREMENT, status_name varchar(32) NOT NULL UNIQUE, PRIMARY KEY (payment_status_id));"
+        ],
+        "terms": [
+            "CREATE TABLE terms (term_id int(11) NOT NULL AUTO_INCREMENT, term_name varchar(56) NOT NULL UNIQUE, start_date date NOT NULL, end_date date NOT NULL, description varchar(128) NOT NULL, PRIMARY KEY (term_id));"
+        ],
+        "courses": [
+            "CREATE TABLE courses (course_id int(11) NOT NULL AUTO_INCREMENT, title varchar(128) NOT NULL, level varchar(32) NOT NULL, description varchar(128) NOT NULL UNIQUE, long_description varchar(1024), sem_hours int(4) NOT NULL, PRIMARY KEY (course_id));"
+        ],
+        "term_courses": [
+            "CREATE TABLE term_courses (term_crs_id int(11) NOT NULL AUTO_INCREMENT, course_id int(11) NOT NULL, term_id int(11) NOT NULL, instructor int(11) NOT NULL, PRIMARY KEY (term_crs_id), CONSTRAINT fk_term_courses_course_id FOREIGN KEY (course_id) REFERENCES courses (course_id) ON DELETE CASCADE, CONSTRAINT fk_term_courses_term_id FOREIGN KEY (term_id) REFERENCES terms (term_id) ON DELETE CASCADE, CONSTRAINT fk_term_courses_instructor FOREIGN KEY (instructor) REFERENCES users (user_id) ON DELETE CASCADE);"
+        ],
+        "enrollments": [
+            "CREATE TABLE enrollments (enrollment_id int(11) NOT NULL AUTO_INCREMENT, user_id int(11) NOT NULL, term_crs_id int(11) NOT NULL, payment_status_id int(11) NOT NULL, PRIMARY KEY (enrollment_id), CONSTRAINT fk_enrollments_user_id FOREIGN KEY (user_id) REFERENCES users (user_id) ON DELETE CASCADE, CONSTRAINT fk_enrollments_term_crs_id FOREIGN KEY (term_crs_id) REFERENCES term_courses (term_crs_id) ON DELETE CASCADE, CONSTRAINT fk_enrollments_payment_status_id FOREIGN KEY (payment_status_id) REFERENCES payment_statuses (payment_status_id) ON DELETE CASCADE);"
+        ]
+    }
+}

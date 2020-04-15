@@ -12,8 +12,15 @@ class connection(object):
         self.port = port
 
 
-def create_db(connection, db_name="westridge"):
+def create_db(conn):
     # Make the connection to the database
+    cur = conn.cursor()
+    sql_list = loads(open(abspath(join(script_path, '..', 'data', \
+        'tables.json')), 'r').read())
+    for i in sql_list["tables"]:
+        cur.execute(sql_list["tables"][i][0])
+        conn.commit()
+
     return None
 
 
@@ -27,4 +34,10 @@ user = conn_json["mysql"]["user"][0]
 passwd = conn_json["mysql"]["passwd"][0]
 db = conn_json["mysql"]["db"][0]
 
-conn = connection(host=host, user=user, passwd=passwd, db=db, port=port)
+conn_obj = connection(host=host, user=user, passwd=passwd, db=db, \
+    port=port)
+
+conn = connect(host=conn_obj.host, user=conn_obj.user, passwd=conn_obj.passwd, \
+    db=conn_obj.db, port=conn_obj.port)
+
+create_db(conn)
