@@ -1,6 +1,8 @@
 from pymysql import connect
+from hashlib import sha1
 from json import loads
 from os.path import abspath, join, dirname
+from random import randint
 from sys import exit
 from main import create_address, create_user
 
@@ -12,6 +14,23 @@ class connection(object):
         self.passwd = passwd
         self.db = db
         self.port = port
+
+
+def get_passwd_sha1(passwd=None):
+    if passwd == None:
+        passwd = ''
+        counter = randint(10, 16)
+        char_set = ['ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz' \
+            '1234567890!@#$%^&*']
+        while counter > 0:
+            passwd += char_set[0][randint(0, len(char_set) - 1)]
+            counter -= 1
+    try:
+        digest = sha1()
+        digest.update(str.encode(f'{passwd}'))
+        return digest.hexdigest()
+    except:
+        raise Exception(f'An error occurred while generating the hash.')
 
 
 def create_db(conn):
@@ -75,9 +94,36 @@ def populate_users(conn, num_users=10):
         cur = conn.cursor()
         for i in range(1, num_users + 1):
             user = create_user()
-            #sql = 
+
+            # Get the state_id of the user object's state
+            state_sql = "SELECT state_id FROM states WHERE state_abbrev = " \
+                f"'{user.address.state}';"
+            cur.execute(state_sql)
+            state_id = int(cur.fetchone()[0])
+
+            # Create the user record
+            sql = "INSERT INTO users (username, first, last, middle, email, " \
+                "street, city, state_id, zip, gender, dob) VALUES (" \
+                f"'{user.uname}', '{user.fname}', '{user.sname}', " \
+                f"'{user.mname}', '{user.email}', '{user.address.streetnum} " \
+                f"{user.address.street}', '{user.address.city}', {state_id}, " \
+                f"'{user.address.zipcode}', '{user.gender}', '{user.dob}');"
+            cur.execute(sql)
+            conn.commit()
+
+            # Get the user id
+            user_sql = "SELECT user_id FROM users WHERE username = " \
+                f"'{user.uname}';"
+            cur.execute(user_sql)
+            user_id = int(cur.fetchone()[0])
+
+            # Create the user's password
+            sql = "INSERT INTO passwords (password, user_id) VALUES (" \
+                f"'{get_passwd_sha1()}', '{user_id}');"
+            cur.execute(sql)
+            conn.commit()
     except:
-        return None
+        raise Exception("An error occurred while populating the users.")
 
 
 # MAIN
@@ -96,6 +142,7 @@ conn_obj = connection(host=host, user=user, passwd=passwd, db=db, \
 conn = connect(host=conn_obj.host, user=conn_obj.user, passwd=conn_obj.passwd, \
     db=conn_obj.db, port=conn_obj.port)
 
-create_db(conn)
-populate_countries(conn)
-populate_states(conn)
+#create_db(conn)
+#populate_countries(conn)
+#populate_states(conn)
+populate_users(conn, 2)
