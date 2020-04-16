@@ -1,0 +1,16 @@
+{
+    "degree_types": {
+      "Associates": {
+        "ttl_sem_hrs": 60
+      },
+      "Bachelors": {
+        "ttl_sem_hrs": 120
+      },
+      "Masters": {
+        "ttl_sem_hrs": 30
+      },
+      "Doctoral": {
+        "ttl_sem_hrs": 30
+      }
+    }
+  }

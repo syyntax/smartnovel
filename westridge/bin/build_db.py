@@ -170,6 +170,18 @@ def populate_roles(conn):
         raise Exception(f'An error occurred while populating the roles.')
 
 
+def populate_degree_types(conn):
+    try:
+        degree_types_json = loads(open(abspath(join(script_path, '..', \
+            'data', 'degree_types.json')), 'r').read())['degree_types']
+        for i in degree_types_json:
+            sql = f"INSERT INTO degree_types (degree_type_name, ttl_sem_hrs)" \
+                f" VALUES ('{i}', {degree_types_json[i]['ttl_sem_hrs']});"
+            execute_sql(conn, sql)
+    except:
+        raise Exception(f'An error occurred while populating the degree types.')
+
+
 # MAIN
 script_path = dirname(abspath(__file__))
 conn_json = loads(open(abspath(join(script_path, '..', 'data', 'config.json' \
@@ -186,8 +198,9 @@ conn_obj = connection(host=host, user=user, passwd=passwd, db=db, \
 conn = connect(host=conn_obj.host, user=conn_obj.user, passwd=conn_obj.passwd, \
     db=conn_obj.db, port=conn_obj.port)
 
-create_db(conn)
-populate_countries(conn)
-populate_states(conn)
-populate_roles(conn)
-populate_users(conn, 100)
+#create_db(conn)
+#populate_countries(conn)
+#populate_states(conn)
+#populate_roles(conn)
+#populate_users(conn, 100)
+populate_degree_types(conn)
