@@ -1,0 +1,25 @@
+{
+    "roles": {
+      "Student": {
+        "ratio": 10
+      },
+      "Instructor": {
+        "ratio": 1
+      },
+      "Professor": {
+        "ratio": 2
+      },
+      "Associate Professor": {
+        "ratio": 1
+      },
+      "Adjunct Professor": {
+        "ratio": 1
+      },
+      "Research Assistant": {
+        "ratio": 2
+      },
+      "Research Associate": {
+        "ratio": 1
+      }
+    }
+  }

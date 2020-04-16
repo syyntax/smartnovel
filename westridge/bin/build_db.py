@@ -16,6 +16,19 @@ class connection(object):
         self.port = port
 
 
+def execute_sql(conn, sql):
+    cursor = conn.cursor()
+
+    try:
+       cursor.execute(sql)
+    except:
+        raise Exception(f'An error occurred while executing the SQL\n\n' \
+            f"{sql}")
+    finally:
+        conn.commit()
+        return cursor.fetchone()
+
+
 def get_passwd_sha1(passwd=None):
     if passwd == None:
         passwd = ''
@@ -92,15 +105,14 @@ def populate_users(conn, num_users=10):
     if num_users < 1:
         raise Exception(f'num_users argument must be no less than one.')
     try:
-        cur = conn.cursor()
         for i in range(1, num_users + 1):
             user = create_user()
 
             # Get the state_id of the user object's state
             state_sql = "SELECT state_id FROM states WHERE state_abbrev = " \
                 f"'{user.address.state}';"
-            cur.execute(state_sql)
-            state_id = int(cur.fetchone()[0])
+            a = execute_sql(conn, state_sql)
+            state_id = int(a[0])
 
             # Create the user record
             sql = "INSERT INTO users (username, first, last, middle, email, " \
@@ -109,22 +121,32 @@ def populate_users(conn, num_users=10):
                 f"'{user.mname}', '{user.email}', '{user.address.streetnum} " \
                 f"{user.address.street}', '{user.address.city}', {state_id}, " \
                 f"'{user.address.zipcode}', '{user.gender}', '{user.dob}');"
-            cur.execute(sql)
-            conn.commit()
+            execute_sql(conn, sql)
 
             # Get the user id
             user_sql = "SELECT user_id FROM users WHERE username = " \
                 f"'{user.uname}';"
-            cur.execute(user_sql)
-            user_id = int(cur.fetchone()[0])
+            a = execute_sql(conn, user_sql)
+            user_id = a[0]
 
             # Create the user's password
             sql = "INSERT INTO passwords (password, user_id) VALUES (" \
                 f"'{get_passwd_sha1()}', '{user_id}');"
-            cur.execute(sql)
-            conn.commit()
+            execute_sql(conn, sql)
     except:
         raise Exception("An error occurred while populating the users.")
+
+
+def populate_roles(conn):
+    roles_json = loads(open(abspath(join(script_path, '..', 'data', \
+        'roles.json')), 'r').read())
+    try:
+        roles_list = roles_json['roles']
+        for i in roles_list:
+            sql = f"INSERT INTO roles (role_name) VALUES ('{i}');"
+            execute_sql(conn, sql)
+    except:
+        raise Exception(f'An error occurred while populating the roles.')
 
 
 # MAIN
@@ -146,4 +168,5 @@ conn = connect(host=conn_obj.host, user=conn_obj.user, passwd=conn_obj.passwd, \
 create_db(conn)
 populate_countries(conn)
 populate_states(conn)
+populate_roles(conn)
 populate_users(conn, 100)
