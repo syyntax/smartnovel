@@ -28,21 +28,6 @@ def create_db(conn):
     except:
         print(f'An error occurred while creating the database tables.')
         exit
-    
-'''
-def populate_users(conn, num_users=10):
-    if conn == None:
-        raise Exception(f'conn argument may not be NoneType.')
-    if not type(num_users) is int:
-        raise Exception(f'num_users must be an integer.')
-    if num_users < 1:
-        raise Exception(f'num_users argument must be no less than one.')
-    try:
-        cur = conn.cursor()
-        for i in range(1, num_users):
-            user = create_user()
-            sql = f"INSERT INTO {conn_obj.db} "
-'''
 
 
 def populate_countries(conn):
@@ -57,8 +42,42 @@ def populate_countries(conn):
                 f"VALUES ('{countries_list[i]}', '{i}');"
             cur.execute(sql)
             conn.commit()
+        del countries_list
     except:
         raise Exception(f'An error occurred while populating the countries.')
+
+
+def populate_states(conn):
+    if conn == None:
+        raise Exception(f'conn argument may not be NoneType')
+    try:
+        cur = conn.cursor()
+        states_list = loads(open(abspath(join(script_path, '..', 'data', \
+            'state_abbrev.json')), 'r').read())
+        for i in states_list:
+            sql = f"INSERT INTO states (state_full, state_abbrev, country_id)" \
+            f" VALUES ('{i}', '{states_list[i]}', 199);" #199 = US
+            cur.execute(sql)
+            conn.commit()
+        del states_list
+    except:
+        raise Exception(f'An error occurred while populating the states.')
+
+
+def populate_users(conn, num_users=10):
+    if conn == None:
+        raise Exception(f'conn argument may not be NoneType.')
+    if not type(num_users) is int:
+        raise Exception(f'num_users must be an integer.')
+    if num_users < 1:
+        raise Exception(f'num_users argument must be no less than one.')
+    try:
+        cur = conn.cursor()
+        for i in range(1, num_users + 1):
+            user = create_user()
+            #sql = 
+    except:
+        return None
 
 
 # MAIN
@@ -79,3 +98,4 @@ conn = connect(host=conn_obj.host, user=conn_obj.user, passwd=conn_obj.passwd, \
 
 create_db(conn)
 populate_countries(conn)
+populate_states(conn)

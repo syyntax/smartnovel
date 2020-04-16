@@ -4,7 +4,7 @@
             "CREATE TABLE countries (country_id int(11) NOT NULL AUTO_INCREMENT, country_name varchar(128) NOT NULL UNIQUE, country_abbrev varchar(8) NOT NULL UNIQUE, PRIMARY KEY (country_id));"
         ],
         "states": [
-            "CREATE TABLE states (state_id int(11) NOT NULL AUTO_INCREMENT, state_full varchar(24) NOT NULL UNIQUE, state_abbrev varchar(8) NOT NULL UNIQUE, country_id int(11) NOT NULL, PRIMARY KEY (state_id), CONSTRAINT fk_states_country_id FOREIGN KEY (country_id) REFERENCES countries (country_id) ON DELETE CASCADE);"
+            "CREATE TABLE states (state_id int(11) NOT NULL AUTO_INCREMENT, state_full varchar(128) NOT NULL UNIQUE, state_abbrev varchar(32) NOT NULL UNIQUE, country_id int(11) NOT NULL, PRIMARY KEY (state_id), CONSTRAINT fk_states_country_id FOREIGN KEY (country_id) REFERENCES countries (country_id) ON DELETE CASCADE);"
         ],
         "users": [
             "CREATE TABLE users (user_id int(11) NOT NULL AUTO_INCREMENT, username varchar(52) NOT NULL UNIQUE, first varchar(52) NOT NULL, last varchar(52) NOT NULL, middle varchar(24), email varchar(52) NOT NULL UNIQUE, street varchar(52) NOT NULL, city varchar(52) NOT NULL, state_id int(11) NOT NULL, zip varchar(10) NOT NULL, gender varchar(8) NOT NULL, dob date NOT NULL, PRIMARY KEY (user_id), CONSTRAINT fk_users_state_id FOREIGN KEY (state_id) REFERENCES states (state_id) ON DELETE CASCADE);"
