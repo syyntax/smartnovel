@@ -1,7 +1,7 @@
 {
     "tables": {
         "countries": [
-            "CREATE TABLE countries (country_id int(11) NOT NULL AUTO_INCREMENT, country_abbrev varchar(8) NOT NULL UNIQUE, PRIMARY KEY (country_id));"
+            "CREATE TABLE countries (country_id int(11) NOT NULL AUTO_INCREMENT, country_name varchar(128) NOT NULL UNIQUE, country_abbrev varchar(8) NOT NULL UNIQUE, PRIMARY KEY (country_id));"
         ],
         "states": [
             "CREATE TABLE states (state_id int(11) NOT NULL AUTO_INCREMENT, state_full varchar(24) NOT NULL UNIQUE, state_abbrev varchar(8) NOT NULL UNIQUE, country_id int(11) NOT NULL, PRIMARY KEY (state_id), CONSTRAINT fk_states_country_id FOREIGN KEY (country_id) REFERENCES countries (country_id) ON DELETE CASCADE);"
