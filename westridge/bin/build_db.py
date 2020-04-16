@@ -133,6 +133,27 @@ def populate_users(conn, num_users=10):
             sql = "INSERT INTO passwords (password, user_id) VALUES (" \
                 f"'{get_passwd_sha1()}', '{user_id}');"
             execute_sql(conn, sql)
+
+            # Create the user's role
+            roles_json = loads(open(abspath(join(script_path, '..', 'data', \
+                'roles.json')), 'r').read())
+            roles_list = roles_json['roles']
+            roles_prob_list = []
+            for i in roles_list:
+                for x in range(0, roles_list[i]['ratio']):
+                    roles_prob_list.append(i)
+            
+            # Get the role id
+            role_sql = "SELECT role_id FROM roles WHERE role_name = " \
+                f"'{roles_prob_list[randint(0, len(roles_prob_list) - 1)]}'"
+            a = execute_sql(conn, role_sql)
+            role_id = a[0]
+
+            # Create the user's assigned role record
+            sql = "INSERT INTO roles_assigned (role_id, user_id) VALUES (" \
+                f"{role_id}, {user_id});"
+            execute_sql(conn, sql)
+
     except:
         raise Exception("An error occurred while populating the users.")
 
