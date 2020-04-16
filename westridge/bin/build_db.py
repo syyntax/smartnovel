@@ -23,7 +23,8 @@ def get_passwd_sha1(passwd=None):
         char_set = ['ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz' \
             '1234567890!@#$%^&*']
         while counter > 0:
-            passwd += char_set[0][randint(0, len(char_set) - 1)]
+            passwd += (char_set[0][randint(0, len(char_set) - 1)] + \
+                str(randint(1, 1000000)))
             counter -= 1
     try:
         digest = sha1()
@@ -142,7 +143,7 @@ conn_obj = connection(host=host, user=user, passwd=passwd, db=db, \
 conn = connect(host=conn_obj.host, user=conn_obj.user, passwd=conn_obj.passwd, \
     db=conn_obj.db, port=conn_obj.port)
 
-#create_db(conn)
-#populate_countries(conn)
-#populate_states(conn)
-populate_users(conn, 2)
+create_db(conn)
+populate_countries(conn)
+populate_states(conn)
+populate_users(conn, 100)
