@@ -1,16 +1,101 @@
 {
-    "degree_types": {
-      "Associates": {
-        "ttl_sem_hrs": 60
+  "degree_types": {
+    "Associate": {
+      "Applied Science": {
+        "Health Services": 60,
+        "Technical Management": 60
       },
-      "Bachelors": {
-        "ttl_sem_hrs": 120
+      "Arts": {
+        "Management": 60,
+        "Business Administration": 60,
+        "Communication": 60,
+        "Counter Terrorism Studies": 60,
+        "Criminal Justice": 60,
+        "Early Childhood Care and Education": 60,
+        "General Studies": 60,
+        "History": 60,
+        "Hospitality": 60,
+        "Military History": 60,
+        "Real Estate Studies": 60,
+        "Retail Management": 60,
+        "Supply Chain Management": 60,
+        "Weapons of Mass Destruction Preparedness": 60
       },
-      "Masters": {
-        "ttl_sem_hrs": 30
+      "Science": {
+        "Accounting": 60,
+        "Computer Applications": 60,
+        "Computer Technology": 60,
+        "Database Application Development": 60,
+        "Explosive Ordnance Disposal": 60,
+        "Fire Science": 60,
+        "Paralegal Studies": 60,
+        "Public Health": 60,
+        "Space Studies": 60,
+        "Web Publishing": 60
+      }
+    },
+    "Bachelor": {
+      "Applied Science": {
+        "Health Sciences": 120,
+        "Technical Management": 120
       },
-      "Doctoral": {
-        "ttl_sem_hrs": 30
+      "Arts": {
+        "Business Administration": 120,
+        "International Relations and Global Security": 120,
+        "Business": 120,
+        "Communication": 120,
+        "Criminal Justice": 120,
+        "Criminal Justice - Momentum": 120,
+        "Emergency and Disaster Management": 120,
+        "Emergency and Disaster Management - Momentum": 120,
+        "English": 120,
+        "Entrepreneurship": 120,
+        "General Studies": 120,
+        "Government Contracting and Acquisition": 120,
+        "History": 120,
+        "Homeland Security": 120,
+        "Hospitality Management": 120,
+        "Human Development and Family Studies": 120,
+        "Intelligence Studies": 120,
+        "Management": 120,
+        "Marketing": 120,
+        "Middle Eastern Studies": 120,
+        "Military History": 120,
+        "Philosophy": 120,
+        "Political Science": 120,
+        "Psychology": 120,
+        "Religion": 120,
+        "Retail Management": 120,
+        "Retail Management - Momentum": 120,
+        "Reverse Logistics Management": 120,
+        "Security Management": 120,
+        "Sociology": 120,
+        "Supply Chain Management": 120,
+        "Transportation and Logistics Management": 120
+      },
+      "Science": {
+        "Accounting": 120,
+        "Business Analytics": 120,
+        "Computer Technology": 120,
+        "Criminal Justice - Forensics": 120,
+        "Cybersecurity": 120,
+        "Electrical Engineering": 120,
+        "Environmental Science": 120,
+        "Fire Science Managament": 120,
+        "Health Information Management": 120,
+        "Healthcare Administration": 120,
+        "Information Systems Security": 120,
+        "Information Technology": 120,
+        "Information Technology Management": 120,
+        "Legal Studies": 120,
+        "Mathematics": 120,
+        "Natural Sciences": 120,
+        "Nursing": 120,
+        "Public Health": 120,
+        "Space Studies": 120,
+        "Sports and Health Sciences": 120,
+        "Sports Management": 120
       }
     }
   }
+}

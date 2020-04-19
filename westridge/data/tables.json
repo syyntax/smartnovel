@@ -19,7 +19,7 @@
             "CREATE TABLE passwords (password_id int(11) NOT NULL AUTO_INCREMENT, password varchar(256) NOT NULL UNIQUE, user_id int(11) NOT NULL UNIQUE, PRIMARY KEY (password_id), CONSTRAINT fk_passwords_user_id FOREIGN KEY (user_id) REFERENCES users (user_id) ON DELETE CASCADE);"
         ],
         "degree_types": [
-            "CREATE TABLE degree_types (degree_type_id int(11) NOT NULL AUTO_INCREMENT, degree_type_name varchar(56) NOT NULL UNIQUE, ttl_sem_hrs int(4) NOT NULL, PRIMARY KEY (degree_type_id));"
+            "CREATE TABLE degree_types (degree_type_id int(11) NOT NULL AUTO_INCREMENT, degree_type_name varchar(256) NOT NULL UNIQUE, ttl_sem_hrs int(4) NOT NULL, PRIMARY KEY (degree_type_id));"
         ],
         "programs": [
             "CREATE TABLE programs (program_id int(11) NOT NULL AUTO_INCREMENT, program_name varchar(56) NOT NULL UNIQUE, degree_type_id int(11) NOT NULL, PRIMARY KEY (program_id), CONSTRAINT fk_programs_degree_type_id FOREIGN KEY (degree_type_id) REFERENCES degree_types (degree_type_id) ON DELETE CASCADE);"
