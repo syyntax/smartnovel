@@ -181,6 +181,7 @@ def populate_degree_types(conn):
                         f"ttl_sem_hrs) VALUES ('{degree}s of {area} in " \
                         f"{program}', " \
                         f"{degree_types_json[degree][area][program]});"
+        
                     execute_sql(conn, sql)
     except:
         raise Exception(f'An error occurred while populating the degree types.')

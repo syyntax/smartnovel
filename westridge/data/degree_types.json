@@ -8,6 +8,7 @@
       "Arts": {
         "Management": 60,
         "Business Administration": 60,
+        "Blood Magic": 60,
         "Communication": 60,
         "Counter Terrorism Studies": 60,
         "Criminal Justice": 60,
@@ -23,6 +24,7 @@
       },
       "Science": {
         "Accounting": 60,
+        "Accounting for Lost Souls": 60,
         "Computer Applications": 60,
         "Computer Technology": 60,
         "Database Application Development": 60,
@@ -31,7 +33,8 @@
         "Paralegal Studies": 60,
         "Public Health": 60,
         "Space Studies": 60,
-        "Web Publishing": 60
+        "Web Publishing": 60,
+        "Spirit Conjouring": 60
       }
     },
     "Bachelor": {
