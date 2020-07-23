@@ -1,0 +1,16 @@
+{
+    "Terms": {
+      "SPRING2020": {
+        "term": "SPRING2020",
+        "start_date": [2020, 4, 6],
+        "end_date": [2020, 7, 20],
+        "description": "Spring semester 2020"
+      },
+      "FALL2020": {
+        "term": "FALL2020",
+        "start_date": [2020, 8, 3],
+        "end_date": [2020, 11, 20],
+        "description": "Fall semester 2020"
+      }
+    }
+  }

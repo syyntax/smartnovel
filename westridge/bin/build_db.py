@@ -5,6 +5,7 @@ from os.path import abspath, join, dirname
 from random import randint
 from sys import exit
 from main import create_address, create_user
+from datetime import datetime
 
 
 class connection(object):
@@ -22,8 +23,8 @@ def execute_sql(conn, sql):
     try:
        cursor.execute(sql)
     except:
-        raise Exception(f'An error occurred while executing the SQL\n\n' \
-            f"{sql}")
+        raise Exception(f'An error occurred while executing the SQL:\n\n' \
+        f"{sql}")
     finally:
         conn.commit()
         return cursor.fetchone()
@@ -187,6 +188,28 @@ def populate_degree_types(conn):
         raise Exception(f'An error occurred while populating the degree types.')
 
 
+def populate_terms(conn):
+    try:
+        terms_json = loads(open(abspath(join(script_path, '..', 'data', \
+            'terms.json')), 'r').read())['Terms']
+        for term in terms_json:
+            start = terms_json[term]["start_date"]
+            end = terms_json[term]["end_date"]
+            term_name = "term"
+            description = "description"
+            sql = f"INSERT INTO terms (term_name, start_date, end_date, " \
+            f"description) VALUES ('{terms_json[term][term_name]}', " \
+            f"'{datetime(start[0], start[1], start[2])}', " \
+            f"'{datetime(end[0], end[1], end[2])}', " \
+            f"'{terms_json[term][description]}');"
+            
+            execute_sql(conn, sql)
+    except:
+        raise Exception(f'An error occurred while populating the terms.')
+    finally:
+        pass
+
+
 # MAIN
 script_path = dirname(abspath(__file__))
 conn_json = loads(open(abspath(join(script_path, '..', 'data', 'config.json' \
@@ -209,3 +232,4 @@ populate_states(conn)
 populate_roles(conn)
 populate_users(conn, 100)
 populate_degree_types(conn)
+populate_terms(conn)
