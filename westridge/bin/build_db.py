@@ -214,8 +214,15 @@ def populate_courses(conn):
     try:
         courses_json = loads(open(abspath(join(script_path, '..', 'data', \
             'catalog.json')), 'r').read())
-        for course in courses_json:
-            print(course)
+        for category in courses_json:
+            for course in courses_json[category]:
+                for description in courses_json[category][course]:
+                    sql = f'INSERT INTO courses (title, level, ' \
+                        f'description, long_description, sem_hours) VALUES ' \
+                        f'(\"{course}\", \"0\", \"{course} - {description}\",' \
+                        f' \"\", 3)'';'
+                    
+                    execute_sql(conn, sql)
     except:
         raise Exception(f'An error occurred while populating the courses.')
     finally:

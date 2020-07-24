@@ -586,7 +586,7 @@
                         "Risk Modeling and Assessment"
                 ],
                 "DATS481": [
-                        "Introduction to Python"
+                        "Introduction to Python Programming"
                 ],
                 "DATS482": [
                         "Python and Data Science"
@@ -836,7 +836,7 @@
                         "Introduction to Environmental Science"
                 ],
                 "EVSP201": [
-                        "Environmental Economics"
+                        "Environmental Science Economics"
                 ],
                 "EVSP310": [
                         "Water Science"
@@ -945,7 +945,7 @@
                         "Spanish I"
                 ],
                 "SPAN101": [
-                        "Spanish I"
+                        "Spanish II"
                 ]
         },
         "Foundations": {
@@ -2105,13 +2105,10 @@
                         "The Work and Life of Ernest Hemingway"
                 ],
                 "LITR404": [
-                        "Mark Twai"
+                        "Mark Twain"
                 ]
         },
         "Management": {
-                "ENTR200": [
-                        "Leadership in Small Business Ventures"
-                ],
                 "HRMT101": [
                         "Human Relations Communication"
                 ],
@@ -2203,7 +2200,7 @@
                         "Senior Seminar in Management"
                 ],
                 "MGMT496": [
-                        "Capstone: Portfolio"
+                        "Capstone: Portfolio Management"
                 ],
                 "TLMT200": [
                         "Retail Shipping and Receiving"
@@ -2265,7 +2262,7 @@
                         "Senior Seminar in Marketing"
                 ],
                 "MKTG499": [
-                        "Independent Study: Marketin"
+                        "Independent Study: Marketing"
                 ]
         },
         "Mathematics": {
@@ -2437,10 +2434,10 @@
                         "Special Topic: Military History"
                 ],
                 "MILH490": [
-                        "Independent Study: History"
+                        "Independent Study: Military History"
                 ],
                 "MILH498": [
-                        "Senior Seminar in Military Histor"
+                        "Senior Seminar in Military History"
                 ]
         },
         "Natural Sciences": {
@@ -2448,7 +2445,7 @@
                         "Organic Chemistry I with Lab"
                 ],
                 "CHEM234": [
-                        "Organic Chemistry II with La"
+                        "Organic Chemistry II with Lab"
                 ]
         },
         "Nursing": {
@@ -2516,7 +2513,7 @@
                         "Community Health II"
                 ],
                 "NURS498": [
-                        "Senior Seminar in Nursing Studie"
+                        "Senior Seminar in Nursing Studies"
                 ]
         },
         "Philosophy": {
@@ -2554,12 +2551,12 @@
                         "Enlightenment Philosophy"
                 ],
                 "PHIL416": [
-                        "Modern & Post-Modern Philosoph"
+                        "Modern & Post-Modern Philosophy"
                 ]
         },
         "Philosophy and Religion": {
                 "PHRL498": [
-                        "Religion and Philosophy Capston"
+                        "Religion and Philosophy Capstone"
                 ]
         },
         "Political Science": {
@@ -2594,24 +2591,7 @@
                         "Portfolio and Critical Reflection in Political Science"
                 ],
                 "POLS497": [
-                        "Senior Seminar in Political Scienc"
-                ]
-        },
-        "Professional Studies": {
-                "BUSN120": [
-                        "Real Estate Principles"
-                ],
-                "BUSN121": [
-                        "Real Estate Practice"
-                ],
-                "BUSN220": [
-                        "Real Estate Finance"
-                ],
-                "BUSN221": [
-                        "Real Estate Appraisal"
-                ],
-                "BUSN222": [
-                        "Real Estate Property Managemen"
+                        "Senior Seminar in Political Science"
                 ]
         },
         "Psychology": {
@@ -2667,7 +2647,7 @@
                         "Independent Study: Psychology"
                 ],
                 "PSYC498": [
-                        "Senior Seminar in Psycholog"
+                        "Senior Seminar in Psychology"
                 ]
         },
         "Public Health": {
@@ -2699,7 +2679,7 @@
                         "Epidemiology"
                 ],
                 "PBHE498": [
-                        "Senior Seminar in Public Healt"
+                        "Senior Seminar in Public Health"
                 ]
         },
         "Religion": {
@@ -2746,7 +2726,7 @@
                         "The Teachings of Jesus"
                 ],
                 "RELS452": [
-                        "Religious Cult"
+                        "Religious Cults"
                 ]
         },
         "Retail Management": {
@@ -2790,7 +2770,7 @@
                         "Digital Retail"
                 ],
                 "RTMG495": [
-                        "Senior Seminar in Retail Managemen"
+                        "Senior Seminar in Retail Management"
                 ]
         },
         "Reverse Logistics Management": {
@@ -2822,7 +2802,7 @@
                         "Recalls Best Practices and Issues"
                 ],
                 "RLMT495": [
-                        "Senior Seminar in Reverse Logistics Managemen"
+                        "Senior Seminar in Reverse Logistics Management"
                 ]
         },
         "Science": {
@@ -3027,7 +3007,7 @@
                         "STEM Special Topics for Bachelors Students"
                 ],
                 "STEM495": [
-                        "STEM Internship for Bachelors Student"
+                        "STEM Internship for Bachelors Students"
                 ]
         },
         "Security Management": {
@@ -3080,7 +3060,7 @@
                         "Independent Study: Security Management"
                 ],
                 "SCMT498": [
-                        "Senior Seminar in Security Managemen"
+                        "Senior Seminar in Security Management"
                 ]
         },
         "Social Science": {
@@ -3100,7 +3080,7 @@
                         "Introduction to Geography"
                 ],
                 "SOCI490": [
-                        "Independent Study: Social Scienc"
+                        "Independent Study: Social Science"
                 ]
         },
         "Sociology": {
@@ -3174,7 +3154,7 @@
                         "Sociology Independent Study"
                 ],
                 "SOCI498": [
-                        "Senior Seminar in Sociolog"
+                        "Senior Seminar in Sociology"
                 ]
         },
         "Space Studies": {
@@ -3236,7 +3216,7 @@
                         "Space Wargaming"
                 ],
                 "SPST499": [
-                        "Senior Seminar in Space Studie"
+                        "Senior Seminar in Space Studies"
                 ]
         },
         "Sports and Health": {
@@ -3331,7 +3311,7 @@
                         "Current Issues and Trends in Fitness and Wellness"
                 ],
                 "SPHE490": [
-                        "Senior Seminar in Sports and Health Scienc"
+                        "Senior Seminar in Sports and Health Science"
                 ]
         },
         "Sports Management": {
@@ -3372,7 +3352,7 @@
                         "Ticket Sales Management"
                 ],
                 "SPMT491": [
-                        "Senior Seminar in Sports Managemen"
+                        "Senior Seminar in Sports Management"
                 ]
         },
         "Supply Chain Management": {
@@ -3383,7 +3363,7 @@
                         "Supply Chain Risk Management"
                 ],
                 "SCMG305": [
-                        "Global Demand Managemen"
+                        "Global Demand Management"
                 ]
         },
         "Transportation and Logistics": {
@@ -3439,7 +3419,7 @@
                         "International Trade and Regulations"
                 ],
                 "TLMT498": [
-                        "Senior Seminar in Transportation and Logistic"
+                        "Senior Seminar in Transportation and Logistics"
                 ]
         }
 }
