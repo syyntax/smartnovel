@@ -212,7 +212,14 @@ def populate_terms(conn):
 
 def populate_courses(conn):
     try:
-        
+        courses_json = loads(open(abspath(join(script_path, '..', 'data', \
+            'catalog.json')), 'r').read())
+        for course in courses_json:
+            print(course)
+    except:
+        raise Exception(f'An error occurred while populating the courses.')
+    finally:
+        pass
 
 
 # MAIN
@@ -238,3 +245,4 @@ conn = connect(host=conn_obj.host, user=conn_obj.user, passwd=conn_obj.passwd, \
 #populate_users(conn, 100)
 #populate_degree_types(conn)
 #populate_terms(conn)
+populate_courses(conn)
