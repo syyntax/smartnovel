@@ -160,6 +160,8 @@ def populate_users(conn, num_users=10):
 
 
 def populate_roles(conn):
+    if conn == None:
+        raise Exception(f'conn argument may not be NoneType.')
     roles_json = loads(open(abspath(join(script_path, '..', 'data', \
         'roles.json')), 'r').read())
     try:
@@ -172,6 +174,8 @@ def populate_roles(conn):
 
 
 def populate_degree_types(conn):
+    if conn == None:
+        raise Exception(f'conn argument may not be NoneType.')
     try:
         degree_types_json = loads(open(abspath(join(script_path, '..', \
             'data', 'degree_types.json')), 'r').read())['degree_types']
@@ -189,6 +193,8 @@ def populate_degree_types(conn):
 
 
 def populate_terms(conn):
+    if conn == None:
+        raise Exception(f'conn argument may not be NoneType.')
     try:
         terms_json = loads(open(abspath(join(script_path, '..', 'data', \
             'terms.json')), 'r').read())['Terms']
@@ -211,6 +217,8 @@ def populate_terms(conn):
 
 
 def populate_courses(conn):
+    if conn == None:
+        raise Exception(f'conn argument may not be NoneType.')
     try:
         courses_json = loads(open(abspath(join(script_path, '..', 'data', \
             'catalog.json')), 'r').read())
@@ -225,6 +233,43 @@ def populate_courses(conn):
                     execute_sql(conn, sql)
     except:
         raise Exception(f'An error occurred while populating the courses.')
+    finally:
+        pass
+
+
+def populate_term_courses(conn, number=1000):
+    if conn == None:
+        raise Exception(f'conn argument may not be NoneType.')
+    try:
+        term_sql = "SELECT term_id FROM terms;"
+        course_sql = "SELECT course_id FROM courses;"
+        instructor_sql = "SELECT user_id FROM roles_assigned WHERE role_id = " \
+            "2 OR role_id = 3 OR role_id = 4 OR role_id = 5;"
+        cur = conn.cursor()
+        
+        #Store SELECT results for terms
+        cur.execute(term_sql)
+        terms = cur.fetchall()
+
+        #Store SELECT results for courses
+        cur.execute(course_sql)
+        courses = cur.fetchall()
+
+        #Store SELECT results for instructors
+        cur.execute(instructor_sql)
+        instructors = cur.fetchall()
+        
+        for i in range(0, number):
+            sql = f'INSERT INTO term_courses (term_id, course_id, ' \
+                f'instructor) VALUES (' \
+                f'{terms[randint(0, len(terms) - 1)][0]}, ' \
+                f'{courses[randint(0, len(courses) - 1)][0]}, ' \
+                f'{instructors[randint(0, len(instructors) - 1)][0]});'
+
+            execute_sql(conn, sql)
+
+    except:
+        raise Exception('Oops')
     finally:
         pass
 
@@ -249,7 +294,8 @@ conn = connect(host=conn_obj.host, user=conn_obj.user, passwd=conn_obj.passwd, \
 #populate_countries(conn)
 #populate_states(conn)
 #populate_roles(conn)
-#populate_users(conn, 100)
+#populate_users(conn, 400)
 #populate_degree_types(conn)
 #populate_terms(conn)
-populate_courses(conn)
+#populate_courses(conn)
+populate_term_courses(conn, 1000)
