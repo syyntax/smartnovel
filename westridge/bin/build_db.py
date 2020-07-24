@@ -210,6 +210,11 @@ def populate_terms(conn):
         pass
 
 
+def populate_courses(conn):
+    try:
+        
+
+
 # MAIN
 script_path = dirname(abspath(__file__))
 conn_json = loads(open(abspath(join(script_path, '..', 'data', 'config.json' \
@@ -226,10 +231,10 @@ conn_obj = connection(host=host, user=user, passwd=passwd, db=db, \
 conn = connect(host=conn_obj.host, user=conn_obj.user, passwd=conn_obj.passwd, \
     db=conn_obj.db, port=conn_obj.port)
 
-create_db(conn)
-populate_countries(conn)
-populate_states(conn)
-populate_roles(conn)
-populate_users(conn, 100)
-populate_degree_types(conn)
-populate_terms(conn)
+#create_db(conn)
+#populate_countries(conn)
+#populate_states(conn)
+#populate_roles(conn)
+#populate_users(conn, 100)
+#populate_degree_types(conn)
+#populate_terms(conn)

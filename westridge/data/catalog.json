@@ -1,119 +1,3445 @@
 {
-    "Accounting (ACCT)": {
-        "ACCT100": [
-            "Accounting I",
-            "Introduction to the purposes of financial accounting statements and the recognition, measurement, and disclosure concepts and methods underlying financial statements. The course focus is on using and interpreting financial statements and on understanding the impact of transactions on assets, liabilities, revenues, and expenses."
-        ],
-        "ACCT101": [
-            "Accounting II",
-            "A continuation of Accounting I, this course includes study of managerial concepts, analysis of financial statements, internal controls, and contemporary accounting standards, practices, and issues. Students must have access to Microsoft Word and Microsoft Excel software."
-        ],
-        "ACCT105": [
-            "Accounting for Non Accounting Majors",
-            "This course is an overview of accounting concepts used by managers in a business environment intended for non-accounting majors with no accounting background. Topics include accounting concepts, users of accounting information, elements and purpose of financial statements, accrual accounting, internal control and basic financial analysis. Students must have access to Microsoft Word and Microsoft Excel software."
-        ],
-        "ACCT202": [
-            "Introduction to Payroll",
-            "This course provides a foundation in payroll accounting, administration, and management. Learn to complete payroll calculations for earnings, taxes, and withholdings; maintain personnel records; and analyze payroll transactions. This course is intended for accounting students and professionals with a need to understand payroll basics."
-        ],
-        "ACCT300": [
-            "Financial Accounting",
-            "As study of financial accounting to expose the student to a wide range of accounting topics. Topics include generally accepted accounting principles, assets and liabilities, debits and credits, accrual and cash based accounting, merchandising and inventory, the accounting cycle, internal controls, capital stock, income reporting, liabilities, cash flow, budgeting, planning and control. Students must have access to Microsoft Word and Microsoft Excel software."
-        ],
-        "ACCT301": [
-            "Intermediate Accounting I",
-            "This course examines the accounting process including the adoption of the International Accounting standards (IAS) and reporting of financial reporting (e.g., balance sheet, income statement, and statement of cash flows). Students must have access to Microsoft Word and Microsoft Excel software."
-        ],
-        "ACCT302": [
-            "Intermediate Accounting II",
-            "Students will study accounting theory and practices associated with corporate accounting issues of pensions, leases, bonds, and investments and earnings per share. Students will also study the effects of time value of money and how it applies to business decisions. An in-depth analysis of liabilities, stockholder’s equity, and accounting changes and errors analysis are also reviewed in this course. Students must have access to Microsoft Word and Microsoft Excel software."
-        ],
-        "ACCT303": [
-            "Intermediate Accounting III",
-            "A survey of the financial reporting process, a detailed study of financial statements, and an analysis of generally accepted accounting principles. Students must have access to Microsoft Word and Microsoft Excel software."
-        ],
-        "ACCT305": [
-            "Accounting Information Systems",
-            "This course applies the practical application of accrual-basis accounting through the use of accounting software. Students will gain experience in integrated software designed to handle general ledger, accounts payable, accounts receivable, financial statement analysis, fixed assets, sales order processing, inventory, and payroll. Students must have access to Microsoft Word and Microsoft Excel software."
-        ],
-        "ACCT400": [
-            "Auditing",
-            "This course examines the role of the auditor in a global business environment. The course covers the scope of auditing, the rules governing the professional ethics of the Certified Public Accountant, the auditing process, and the legal liabilities and responsibilities of an auditor. Students must have access to Microsoft Word and Microsoft Excel software."
-        ],
-        "ACCT401": [
-            "Cost Accounting",
-            "Cost accounting identifies the essential data to managers regarding planning and controlling, costing products and services, and customers. The student studies the basic concepts, analyses, uses, and procedures related to types of costs and costing systems. This course will concentrate on examination of the concepts, theories, principles, and practices of cost accounting. Students will develop quantitative and qualitative methods for analyzing raw data that support the business decision-making process and inventory costing."
-        ],
-        "ACCT406": [
-            "Managerial/Cost Accounting",
-            "Students will analyze how internal accounting information can be used to support management in planning and controlling business activities. Topics covered range from (analysis of) financial statement analysis, job order cost systems, cost-volume-profit analysis, budgeting, performance evaluation using standard costs, differential analysis, and product pricing. Students must have access to Microsoft Word and Microsoft Excel software."
-        ],
-        "ACCT410": [
-            "Governmental and Not-for-Profit Accounting",
-            "This course emphasizes the accounting principles and reporting requirements for government units and not-for-profit entities. Topics include the accounting cycle, budgeting and fund accounting, and accounting for state and local governments, colleges and universities, and for not-for-profit organizations. Students must have access to Microsoft Word and Microsoft Excel software."
-        ],
-        "ACCT415": [
-            "Law for Accountants",
-            "To develop a sound understanding of the nature of law and an appreciation of the role of law within which an Accountant operates. A study of an area of law of particular importance to business, including contracts, sales, negotiable instruments, secured transactions, agency, partnerships, and corporations.Students must have access to Microsoft Word and Microsoft Excel software."
-        ],
-        "ACCT420": [
-            "Individual Federal Taxes",
-            "Students will be introduced to procedures for analyzing tax information on an individual federal tax basis. The following material will be covered in this course: analysis of gross income, income exclusions, adjusted gross income, deductions, exemptions, and credits. Students must have access to Microsoft Word and Microsoft Excel software."
-        ],
-        "ACCT499": [
-            "Senior Seminar in Accounting",
-            "The Capstone course is a senior level course designed to allow the student to review, analyze, and integrate the work the student has completed toward a degree in Accounting. The students will examine a number of real-world cases that relate to auditing and accounting issues, and students will prepare an approved academic project or paper that demonstrates mastery of their program of study in a meaningful culmination of their learning and to assess their level of mastery of the stated outcomes of their degree requirements. Students must complete ALL Core and Major courses prior to this course. Students must have access to Microsoft Word and Microsoft Excel software."
-        ]
-    },
-    "Business (ANLY)": {
-        "ANLY460": [
-            "Applied Analytics I",
-            "This course is designed to provide an understanding of the basics of applied analytics based on principals starting from descriptive statistics, probability, distributions, and hypothesis testing; where sums, counts, frequencies, measures, and probabilities of collected data and occurrences, past or current, are used effectively to support reactive or corrective decisions either on real time or for the future. This course covers using Excel add-in for data analysis as a tool to create, manipulate, and report descriptive analytics outcomes for decision-making."
-        ],
-        "ANLY461": [
-            "Applied Analytics II",
-            "This course further integrates applied business analytics. It continues the examination of the role of statistics and analytics techniques in the interpretation and findings of nonparametric test of hypothesis, analysis of variance ANOVA, correlation, and regression analysis. After completing this course, students are expected to understand diagnosing factors affecting a problem, variables involved, relationships among business variables, and how to generate a prediction model."
-        ],
-        "ANLY462": [
-            "Applied Analytics III"
-        ],
-        "ANLY499": [
-            "Analytics Senior Seminar"
-        ]
-    },
-    "Business (BUSN)": {
-        "BUSN100": [
-            "Basics of Business"
-        ],
-        "BUSN120": [
-            "Real Estate Principles"
-        ],
-        "BUSN121": [
-            "Real Estate Practice"
-        ],
-        "BUSN201": [
-            "Introduction to Construction Management"
-        ],
-        "BUSN220": [
-            "Real Estate Finance"
-        ],
-        "BUSN221": [
-            "Real Estate Appraisal"
-        ],
-        "BUSN222": [
-            "Real Estate Property Management"
-        ],
-        "BUSN235": [
-            "Personal Finance"
-        ],
-        "BUSN250": [
-            "Analytics I"
-        ],
-        "BUSN299": [
-            "Applied Business Solutions"
-        ],
-        "BUSN301": [
-            "Residential Real Estate Portfolio Development"
-        ]
-    }
+        "Accounting": {
+                "ACCT100": [
+                        "Accounting I"
+                ],
+                "ACCT101": [
+                        "Accounting II"
+                ],
+                "ACCT105": [
+                        "Accounting for Non Accounting Majors"
+                ],
+                "ACCT202": [
+                        "Introduction to Payroll"
+                ],
+                "ACCT300": [
+                        "Financial Accounting"
+                ],
+                "ACCT301": [
+                        "Intermediate Accounting I"
+                ],
+                "ACCT302": [
+                        "Intermediate Accounting II"
+                ],
+                "ACCT303": [
+                        "Intermediate Accounting III"
+                ],
+                "ACCT305": [
+                        "Accounting Information Systems"
+                ],
+                "ACCT400": [
+                        "Auditing"
+                ],
+                "ACCT401": [
+                        "Cost Accounting"
+                ],
+                "ACCT406": [
+                        "Managerial/Cost Accounting"
+                ],
+                "ACCT410": [
+                        "Governmental and Not-for-Profit Accounting"
+                ],
+                "ACCT415": [
+                        "Law for Accountants"
+                ],
+                "ACCT420": [
+                        "Individual Federal Taxes"
+                ],
+                "ACCT499": [
+                        "Senior Seminar in Accounting"
+                ]
+                },
+        "Business (ANLY)": {
+                "ANLY460": [
+                        "Applied Analytics I"
+                ],
+                "ANLY461": [
+                        "Applied Analytics II"
+                ],
+                "ANLY462": [
+                        "Applied Analytics III"
+                ],
+                "ANLY499": [
+                        "Analytics Senior Seminar"
+                ]
+        },
+        "Business (BUSN)": {
+                "BUSN100": [
+                        "Basics of Business"
+                ],
+                "BUSN120": [
+                        "Real Estate Principles"
+                ],
+                "BUSN121": [
+                        "Real Estate Practice"
+                ],
+                "BUSN201": [
+                        "Introduction to Construction Management"
+                ],
+                "BUSN220": [
+                        "Real Estate Finance"
+                ],
+                "BUSN221": [
+                        "Real Estate Appraisal"
+                ],
+                "BUSN222": [
+                        "Real Estate Property Management"
+                ],
+                "BUSN235": [
+                        "Personal Finance"
+                ],
+                "BUSN250": [
+                        "Analytics I"
+                ],
+                "BUSN299": [
+                        "Applied Business Solutions"
+                ],
+                "BUSN301": [
+                        "Residential Real Estate Portfolio Development"
+                ],
+                "BUSN302": [
+                        "Commercial Real Estate Portfolio Development"
+                ],
+                "BUSN308": [
+                        "Real Estate Marketing"
+                ],
+                "BUSN310": [
+                        "Business Theory"
+                ],
+                "BUSN311": [
+                        "Law and Ethics in the Business Environment"
+                ],
+                "BUSN312": [
+                        "Operations Research"
+                ],
+                "BUSN313": [
+                        "Global and Competitive Strategy"
+                ],
+                "BUSN316": [
+                        "Fundamentals of Entrepreneurship"
+                ],
+                "BUSN318": [
+                        "Small Business Management"
+                ],
+                "BUSN320": [
+                        "Principles of E Business"
+                ],
+                "BUSN330": [
+                        "Fundamentals of Business Analysis I"
+                ],
+                "BUSN331": [
+                        "Fundamentals of Business Analysis II"
+                ],
+                "BUSN333": [
+                        "Project Management for Business Analysts"
+                ],
+                "BUSN334": [
+                        "Strategic Alignment in Business Analysis"
+                ],
+                "BUSN350": [
+                        "Analytics II"
+                ],
+                "BUSN410": [
+                        "Critical Thinking Strategies for Business Decisions"
+                ],
+                "BUSN412": [
+                        "Quality Management Systems"
+                ],
+                "BUSN415": [
+                        "Small Business Growth and Development"
+                ],
+                "BUSN419": [
+                        "International Business Management"
+                ],
+                "BUSN425": [
+                        "Real Estate Management"
+                ],
+                "BUSN450": [
+                        "Advanced Analytics"
+                ],
+                "BUSN490": [
+                        "Business Administration Independent Study"
+                ],
+                "BUSN499": [
+                        "Senior Seminar in Business Administration"
+                ],
+                "ECON101": [
+                        "Microeconomics"
+                ],
+                "ECON102": [
+                        "Macroeconomics"
+                ],
+                "ECON201": [
+                        "Microeconomics for Business"
+                ],
+                "ECON202": [
+                        "Macroeconomics for Business"
+                ],
+                "ECON301": [
+                        "Comparative Economics"
+                ],
+                "ECON302": [
+                        "Environmental Economics"
+                ],
+                "ECON303": [
+                        "International Economics"
+                ],
+                "ECON304": [
+                        "Monetary Economics"
+                ],
+                "ENTR150": [
+                        "Idea Generation"
+                ],
+                "ENTR200": [
+                        "Leadership in Small Business Ventures"
+                ],
+                "ENTR210": [
+                        "Entrepreneurs as Leaders"
+                ],
+                "ENTR215": [
+                        "Innovation Design and Prototyping"
+                ],
+                "ENTR216": [
+                        "Service Innovation and Delivery"
+                ],
+                "ENTR300": [
+                        "Foundations of Entrepreneurship"
+                ],
+                "ENTR310": [
+                        "The Family Owned Business"
+                ],
+                "ENTR311": [
+                        "Business Plan Foundations"
+                ],
+                "ENTR312": [
+                        "Social Entrepreneurship"
+                ],
+                "ENTR313": [
+                        "Non-Profit Entrepreneurship"
+                ],
+                "ENTR315": [
+                        "Financing a New Venture"
+                ],
+                "ENTR320": [
+                        "Practical Law for the Entrepreneur"
+                ],
+                "ENTR340": [
+                        "Small Business Customer Service"
+                ],
+                "ENTR410": [
+                        "Money Management for Entrepreneurs"
+                ],
+                "ENTR415": [
+                        "Marketing the Successful Small Business"
+                ],
+                "ENTR416": [
+                        "Innovative Marketing"
+                ],
+                "ENTR420": [
+                        "Social Media to Grow Small Business"
+                ],
+                "ENTR421": [
+                        "The Value of Networking"
+                ],
+                "ENTR425": [
+                        "Operating a Small Business"
+                ],
+                "ENTR426": [
+                        "Strategic Growth"
+                ],
+                "ENTR427": [
+                        "Technological Innovation"
+                ],
+                "ENTR430": [
+                        "Virtual Small Business"
+                ],
+                "ENTR498": [
+                        "Entrepreneurship Senior Capston"
+                ]
+        },
+        "Child and Family Development": {
+                "CHFD101": [
+                        "Professional Careers and Education in Child Family Development"
+                ],
+                "CHFD210": [
+                        "Childhood Educational Development"
+                ],
+                "CHFD212": [
+                        "Infant and Toddler Programs"
+                ],
+                "CHFD215": [
+                        "Introduction to Child Development"
+                ],
+                "CHFD220": [
+                        "Human Sexuality"
+                ],
+                "CHFD225": [
+                        "Introduction to the American Family"
+                ],
+                "CHFD230": [
+                        "Child Welfare and Advocacy"
+                ],
+                "CHFD307": [
+                        "Child and Adolescent Development"
+                ],
+                "CHFD308": [
+                        "Infant-Toddler Development"
+                ],
+                "CHFD311": [
+                        "Guidance in Early Childhood"
+                ],
+                "CHFD312": [
+                        "Special Needs Students"
+                ],
+                "CHFD331": [
+                        "Parenting"
+                ],
+                "CHFD340": [
+                        "Family Development"
+                ],
+                "CHFD342": [
+                        "Human Life Span Development"
+                ],
+                "CHFD348": [
+                        "Marriage and the Family"
+                ],
+                "CHFD350": [
+                        "Family Life Education"
+                ],
+                "CHFD360": [
+                        "Family Resource Management"
+                ],
+                "CHFD411": [
+                        "Child Psychopathology"
+                ],
+                "CHFD415": [
+                        "Children and Stress"
+                ],
+                "CHFD445": [
+                        "Family Communications"
+                ],
+                "CHFD446": [
+                        "Families and Social Action"
+                ],
+                "CHFD498": [
+                        "Senior Seminar in Child and Family Development"
+                ],
+                "HDFS401": [
+                        "Child Life Theory and Practice"
+                ],
+                "HDFS402": [
+                        "Benefits of Therapeutic Play"
+                ],
+                "HDFS403": [
+                        "Death, Dying, and Grief"
+                ],
+                "HDFS496": [
+                        "Practicum Experience"
+                ],
+                "HDFS497": [
+                        "Internship Experience"
+                ]
+              },
+        "Communications": {
+                "COMM101": [
+                        "Introduction to Communication"
+                ],
+                "COMM110": [
+                        "Information & Digital Literacy"
+                ],
+                "COMM115": [
+                        "Foundations for Lifelong Learning"
+                ],
+                "COMM120": [
+                        "Information and Digital Literacy"
+                ],
+                "COMM200": [
+                        "Public Speaking"
+                ],
+                "COMM210": [
+                        "Communication and Gender"
+                ],
+                "COMM211": [
+                        "Social Media and Society"
+                ],
+                "COMM220": [
+                        "Small Group Communication"
+                ],
+                "COMM240": [
+                        "Intercultural Communication"
+                ],
+                "COMM250": [
+                        "Mass Communication"
+                ],
+                "COMM255": [
+                        "Digital Tools and Media in Communication"
+                ],
+                "COMM280": [
+                        "Ethics in Communication"
+                ],
+                "COMM285": [
+                        "Interpersonal Communications"
+                ],
+                "COMM300": [
+                        "Communication Research Skills"
+                ],
+                "COMM304": [
+                        "Communication Theory"
+                ],
+                "COMM350": [
+                        "Journalism"
+                ],
+                "COMM351": [
+                        "Strategic Communication"
+                ],
+                "COMM356": [
+                        "Digital Communication and Media Design Principles"
+                ],
+                "COMM360": [
+                        "Inclusive Communication"
+                ],
+                "COMM365": [
+                        "Communication Analytics"
+                ],
+                "COMM370": [
+                        "Situational Communication"
+                ],
+                "COMM375": [
+                        "Web and Mobile Communication"
+                ],
+                "COMM380": [
+                        "Communication of Listening"
+                ],
+                "COMM385": [
+                        "Visual Communication"
+                ],
+                "COMM400": [
+                        "Persuasive Communication"
+                ],
+                "COMM401": [
+                        "Conflict and Communication"
+                ],
+                "COMM410": [
+                        "Leadership Communication"
+                ],
+                "COMM415": [
+                        "Building a Digital Presence"
+                ],
+                "COMM450": [
+                        "Strategic Communication Career Management and Ethics"
+                ],
+                "COMM456": [
+                        "Digital Communication and Media Design Career Management and Future Technologies"
+                ],
+                "COMM498": [
+                        "Capstone"
+                ]
+        },
+        "Criminal Justice": {
+                "CMRJ100": [
+                        "Introduction to Law Enforcement"
+                ],
+                "CMRJ101": [
+                        "Evidence and Procedures"
+                ],
+                "CMRJ201": [
+                        "Criminal Justice Administration"
+                ],
+                "CMRJ202": [
+                        "Stress Management in Law Enforcement"
+                ],
+                "CMRJ203": [
+                        "Patrol Methodologies & Community Policing"
+                ],
+                "CMRJ205": [
+                        "Rape and Sexual Violence"
+                ],
+                "CMRJ206": [
+                        "Juvenile Delinquency"
+                ],
+                "CMRJ295": [
+                        "Criminal Justice Sophomore Seminar"
+                ],
+                "CMRJ302": [
+                        "U.S. Law Enforcement"
+                ],
+                "CMRJ303": [
+                        "Criminology"
+                ],
+                "CMRJ306": [
+                        "Criminal Investigation"
+                ],
+                "CMRJ308": [
+                        "Ethics in Criminal Justice"
+                ],
+                "CMRJ316": [
+                        "Corrections and Incarceration"
+                ],
+                "CMRJ317": [
+                        "Probation and Parole"
+                ],
+                "CMRJ320": [
+                        "Law Enforcement Intelligence Applications"
+                ],
+                "CMRJ322": [
+                        "Crime and the Family"
+                ],
+                "CMRJ324": [
+                        "The History of Organized Crime"
+                ],
+                "CMRJ329": [
+                        "Criminal Profiling"
+                ],
+                "CMRJ335": [
+                        "Crime Analysis"
+                ],
+                "CMRJ341": [
+                        "Criminalistics"
+                ],
+                "CMRJ401": [
+                        "Human Trafficking"
+                ],
+                "CMRJ402": [
+                        "The Pathology of Death Investigations"
+                ],
+                "CMRJ497": [
+                        "Criminal Justice Capstone"
+                ],
+                "CMRJ498": [
+                        "Forensic Law Enforcement Capstone"
+                ],
+                "CMRJ499": [
+                        "Senior Seminar in Criminal Justice"
+                ]
+        },
+        "Data Science": {
+                "DATS200": [
+                        "Functional Methods and Coding"
+                ],
+                "DATS201": [
+                        "Analytical Methods I"
+                ],
+                "DATS211": [
+                        "Introduction to Data Science"
+                ],
+                "DATS221": [
+                        "Exploratory Data Analysis"
+                ],
+                "DATS225": [
+                        "Data Visualization"
+                ],
+                "DATS298": [
+                        "Associate Seminar"
+                ],
+                "DATS301": [
+                        "Analytical Methods II"
+                ],
+                "DATS311": [
+                        "Intermediate Data Science"
+                ],
+                "DATS331": [
+                        "Machine Learning I"
+                ],
+                "DATS332": [
+                        "Machine Learning II"
+                ],
+                "DATS344": [
+                        "Probabilistic Graphical Models"
+                ],
+                "DATS351": [
+                        "Sentiment Analysis"
+                ],
+                "DATS371": [
+                        "Fundamentals of Simulation"
+                ],
+                "DATS373": [
+                        "Simulation Techniques"
+                ],
+                "DATS381": [
+                        "Behind the Data, Our values and beliefs"
+                ],
+                "DATS401": [
+                        "Analytical Methods III"
+                ],
+                "DATS411": [
+                        "Advanced Data Science"
+                ],
+                "DATS431": [
+                        "Machine Learning III"
+                ],
+                "DATS432": [
+                        "Deep Learning"
+                ],
+                "DATS433": [
+                        "Artificial Neural Networks using TensorFlow"
+                ],
+                "DATS435": [
+                        "Optimization and Machine Learning"
+                ],
+                "DATS442": [
+                        "Bayesian Methods (Bayesian Inference, NaÃ¯ve Bays)"
+                ],
+                "DATS443": [
+                        "Generalized Linear Equations Using R"
+                ],
+                "DATS465": [
+                        "Risk Modeling and Assessment"
+                ],
+                "DATS481": [
+                        "Introduction to Python"
+                ],
+                "DATS482": [
+                        "Python and Data Science"
+                ],
+                "DATS499": [
+                        "Senior Capstone Project"
+                ]
+        },
+        "Education": {
+                "EDUC111": [
+                        "Observation Techniques"
+                ],
+                "EDUC200": [
+                        "Humane Education: A Global Interdisciplinary Perspective"
+                ],
+                "EDUC320": [
+                        "Classroom Management"
+                ],
+                "EDUC340": [
+                        "Adult Learning Theory"
+                ],
+                "EDUC401": [
+                        "Curriculum Design"
+                ],
+                "EDUC402": [
+                        "Measurement and Evaluation"
+                ]	
+        },
+        "Emergency Management": {
+                "EDMG101": [
+                        "Introduction to Emergency Management"
+                ],
+                "EDMG220": [
+                        "Emergency Planning"
+                ],
+                "EDMG230": [
+                        "Emergency and Disaster Incident Command"
+                ],
+                "EDMG240": [
+                        "Chemistry of Hazardous Materials"
+                ],
+                "EDMG259": [
+                        "Hazard Mitigation and Preparedness"
+                ],
+                "EDMG320": [
+                        "Natural Disaster Management"
+                ],
+                "EDMG321": [
+                        "Social Media Application to Emergency and Disaster Management"
+                ],
+                "EDMG330": [
+                        "Managerial Issues in Hazardous Materials"
+                ],
+                "EDMG340": [
+                        "Consequence Management"
+                ],
+                "EDMG420": [
+                        "Risk Communications"
+                ],
+                "EDMG498": [
+                        "Senior Seminar in Emergency & Disaster Mgmt."
+                ],
+                "EDMG499": [
+                        "Independent Study in Emergency and Disaster Mgmt"
+                ],
+                "EXOD299": [
+                        "Sophomore Seminar in Explosive Ordnance Disposal"
+                ],
+                "FSMT102": [
+                        "Fire Behavior and Combustion"
+                ],
+                "FSMT188": [
+                        "Fire Prevention"
+                ],
+                "FSMT201": [
+                        "Fire Protection Systems"
+                ],
+                "FSMT210": [
+                        "Fundamentals of Fire Protection"
+                ],
+                "FSMT287": [
+                        "Fire Protection in Building Construction"
+                ],
+                "FSMT289": [
+                        "Fire Protection Hydraulics and Water Supply"
+                ],
+                "FSMT299": [
+                        "Sophomore Seminar in Fire Science"
+                ],
+                "FSMT311": [
+                        "Fire Dynamics"
+                ],
+                "FSMT320": [
+                        "Fire Protection Structure and System Design"
+                ],
+                "FSMT321": [
+                        "Community Fire Mitigation and Protection"
+                ],
+                "FSMT340": [
+                        "Incendiary Fire Analysis and Investigation"
+                ],
+                "FSMT362": [
+                        "Fire Administration and Finance"
+                ],
+                "FSMT405": [
+                        "Fire Safety and Risk Regulation"
+                ],
+                "FSMT410": [
+                        "Fire Regulation, Policy, and Law"
+                ],
+                "FSMT475": [
+                        "Applications of Fire Research"
+                ],
+                "FSMT498": [
+                        "Senior Seminar in Fire Science"
+                ],
+                "HLSS211": [
+                        "Emergency Response to Terrorism"
+                ]
+        },
+        "Engineering": {
+                "ELEN100": [
+                        "Introduction to Electrical Engineering"
+                ],
+                "ELEN300": [
+                        "Electrical Engineering Fundamentals"
+                ],
+                "ELEN303": [
+                        "Measurements and Instrumentation"
+                ],
+                "ELEN305": [
+                        "Electrical Circuit Analysis"
+                ],
+                "ELEN306": [
+                        "Analog Circuit Theory"
+                ],
+                "ELEN307": [
+                        "Digital Circuit Theory"
+                ],
+                "ELEN310": [
+                        "Continuous and Discrete Signals and Systems"
+                ],
+                "ELEN312": [
+                        "Energy Conversion Processes and Systems"
+                ],
+                "ELEN325": [
+                        "Field Theory"
+                ],
+                "ELEN416": [
+                        "Control Systems Theory and Design"
+                ],
+                "ELEN420": [
+                        "Communication Systems"
+                ],
+                "ELEN421": [
+                        "RF/Microwave Engineering I"
+                ],
+                "ELEN422": [
+                        "RF/Microwave Engineering II"
+                ],
+                "ELEN423": [
+                        "Wireless Communications"
+                ],
+                "ELEN426": [
+                        "Antennas-Theory and Applications"
+                ],
+                "ELEN427": [
+                        "Radar Systems Theory"
+                ],
+                "ELEN430": [
+                        "Embedded Systems Design"
+                ],
+                "ELEN432": [
+                        "Microcontroller Based Systems"
+                ],
+                "ELEN435": [
+                        "Introduction to Power Electronics"
+                ],
+                "ELEN436": [
+                        "Advanced Power Electronics"
+                ],
+                "ELEN440": [
+                        "Mechatronics"
+                ],
+                "ELEN498": [
+                        "Senior Seminar Design"
+                ],
+                "ELEN499": [
+                        "Senior Seminar Project"
+                ],
+                "ENGR200": [
+                        "Introduction to Engineering and Computing"
+                ],
+                "ENGR300": [
+                        "Fundamentals of Mechanical Engineering"
+                ]
+        },
+        "English": {
+                "ENGL100": [
+                        "The Processes & Principles of Composition"
+                ],
+                "ENGL101": [
+                        "Proficiency in Writing"
+                ],
+                "ENGL102": [
+                        "Effectiveness in Writing"
+                ],
+                "ENGL110": [
+                        "Making Writing Relevant"
+                ],
+                "ENGL120": [
+                        "Creative Writing"
+                ],
+                "ENGL200": [
+                        "Composition and Literature"
+                ],
+                "ENGL220": [
+                        "Technical Writing"
+                ],
+                "ENGL221": [
+                        "Scientific Writing"
+                ],
+                "ENGL225": [
+                        "Business Writing"
+                ],
+                "ENGL230": [
+                        "Introduction to Linguistics"
+                ],
+                "ENGL320": [
+                        "Freelance Writing"
+                ],
+                "ENGL322": [
+                        "The Personal Essay"
+                ],
+                "ENGL401": [
+                        "History of the English Language"
+                ],
+                "ENGL420": [
+                        "Advanced Creative Writing"
+                ],
+                "ENGL498": [
+                        "Senior Seminar in English"
+                ]
+        },
+        "Environmental Science": {
+                "EVSP180": [
+                        "Introduction to Environmental Science"
+                ],
+                "EVSP201": [
+                        "Environmental Economics"
+                ],
+                "EVSP310": [
+                        "Water Science"
+                ],
+                "EVSP311": [
+                        "Soil Science"
+                ],
+                "EVSP312": [
+                        "Introduction to Sustainability"
+                ],
+                "EVSP316": [
+                        "U.S. Federal Environmental Organization"
+                ],
+                "EVSP320": [
+                        "Energy and Resource Sustainability"
+                ],
+                "EVSP321": [
+                        "Land Use and Planning"
+                ],
+                "EVSP322": [
+                        "Remote Sensing and Geographic Information Systems"
+                ],
+                "EVSP330": [
+                        "Fish and Wildlife Policies, Programs, and Issues"
+                ],
+                "EVSP331": [
+                        "Public Lands Management"
+                ],
+                "EVSP341": [
+                        "Introduction to Wildlife Management"
+                ],
+                "EVSP342": [
+                        "Population Ecology"
+                ],
+                "EVSP411": [
+                        "Environmental Policy, Regulation, and Law"
+                ],
+                "EVSP412": [
+                        "Environmental Management Systems"
+                ],
+                "EVSP413": [
+                        "Environmental and Ecosystems Management"
+                ],
+                "EVSP414": [
+                        "Air Quality Management"
+                ],
+                "EVSP415": [
+                        "Environmental Impact Assessment"
+                ],
+                "EVSP416": [
+                        "General Ecology"
+                ],
+                "EVSP417": [
+                        "Conservation Biology"
+                ],
+                "EVSP418": [
+                        "Green Infrastructure and Renewable Technologies"
+                ],
+                "EVSP421": [
+                        "Water Resources Management"
+                ],
+                "EVSP430": [
+                        "Pollution and Pollution Management"
+                ],
+                "EVSP498": [
+                        "Senior Seminar in Environmental Science"
+                ]
+        },
+        "Fire Science": {
+                "FSMT281": [
+                        "Principles of Fire and Emergency Services Safety and Survival"
+                ],
+                "FSMT288": [
+                        "Community Risk Reduction for the Fire and Emergency Service"
+                ]
+        },
+        "Foreign Languages": {
+                "ARAB100": [
+                        "Arabic I"
+                ],
+                "ARAB101": [
+                        "Arabic II"
+                ],
+                "FREN100": [
+                        "French I"
+                ],
+                "FREN101": [
+                        "French II"
+                ],
+                "GERM100": [
+                        "German I"
+                ],
+                "GERM101": [
+                        "German II"
+                ],
+                "JAPN100": [
+                        "Introduction to Japanese"
+                ],
+                "PORT100": [
+                        "Introduction to Brazilian Portuguese"
+                ],
+                "RUSS100": [
+                        "Russian I"
+                ],
+                "SPAN100": [
+                        "Spanish I"
+                ],
+                "SPAN101": [
+                        "Spanish I"
+                ]
+        },
+        "Foundations": {
+                "COLL102": [
+                        "Learning Strategies"
+                ],
+                "COLL200": [
+                        "Prior Learning Assessment Seminar"
+                ],
+                "COLL300": [
+                        "Research, Analysis, and Writing"
+                ],
+                "COLL498": [
+                        "Senior Seminar in General Studie"
+                ]
+        },
+        "Government Contracting and Acquisition": {
+                "DEFM200": [
+                        "Fundamentals of Contracting and Acquisition"
+                ],
+                "DEFM305": [
+                        "Acquisition Business Management"
+                ],
+                "DEFM310": [
+                        "Program and Acquisition Management I"
+                ],
+                "DEFM311": [
+                        "Program and Acquisition Management II"
+                ],
+                "DEFM312": [
+                        "Defense Budget Development and Execution"
+                ],
+                "DEFM314": [
+                        "Military Logistics"
+                ],
+                "DEFM332": [
+                        "Transition and the Military Family"
+                ],
+                "DEFM351": [
+                        "History of Military Retention"
+                ],
+                "DEFM410": [
+                        "Program Appraisal"
+                ],
+                "DEFM415": [
+                        "Acquisition Test & Evaluation"
+                ],
+                "DEFM420": [
+                        "Cost Analysis and Negotiation Techniques"
+                ],
+                "DEFM421": [
+                        "Joint Contingency Contracting"
+                ],
+                "DEFM422": [
+                        "Mission Support Contracting I"
+                ],
+                "DEFM423": [
+                        "Mission Support Contracting II"
+                ],
+                "DEFM424": [
+                        "Overhead Management of Defense Contracts"
+                ],
+                "DEFM499": [
+                        "Senior Seminar in Government Contracting and Acquisitio"
+                ]
+        },
+        "Health Information Management": {
+                "HIMA100": [
+                        "Medical Terminology"
+                ],
+                "HIMA110": [
+                        "Introduction to Health Information Management"
+                ],
+                "HIMA200": [
+                        "Legal Aspects of Health Information Management"
+                ],
+                "HIMA220": [
+                        "Classification Systems I"
+                ],
+                "HIMA230": [
+                        "Classification Systems II"
+                ],
+                "HIMA240": [
+                        "Healthcare Reimbursement Methodologies"
+                ],
+                "HIMA250": [
+                        "Healthcare Delivery Systems and Documentation"
+                ],
+                "HIMA310": [
+                        "Electronics Health Records Fundamentals"
+                ],
+                "HIMA350": [
+                        "Compliance"
+                ],
+                "HIMA360": [
+                        "Health Informatics Project and Enterprise Management"
+                ],
+                "HIMA410": [
+                        "Informatics and Analytics"
+                ],
+                "HIMA460": [
+                        "Healthcare Data Management and Governance"
+                ],
+                "HIMA497": [
+                        "Health Information Management Practicum"
+                ],
+                "HIMA499": [
+                        "Senior Seminar in Health Information Managemen"
+                ]
+        },
+        "Healthcare Administration": {
+                "HCAD300": [
+                        "Legal and Ethical Principles in Healthcare"
+                ],
+                "HCAD301": [
+                        "Healthcare Principles and Policies"
+                ],
+                "HCAD302": [
+                        "Healthcare Quality and Safety"
+                ],
+                "HCAD400": [
+                        "Strategic Planning and Marketing in Healthcare"
+                ],
+                "HCAD498": [
+                        "Senior Seminar in Health Science"
+                ]
+        },
+        "History": {
+                "HIST101": [
+                        "American History to 1877"
+                ],
+                "HIST102": [
+                        "American History since 1877"
+                ],
+                "HIST111": [
+                        "World Civilization before 1650"
+                ],
+                "HIST112": [
+                        "World Civilization since 1650"
+                ],
+                "HIST121": [
+                        "Western Civilization before The Thirty Years War"
+                ],
+                "HIST122": [
+                        "Western Civilization since The Thirty Years War"
+                ],
+                "HIST213": [
+                        "History of Women in the United States"
+                ],
+                "HIST221": [
+                        "African-American History before 1877"
+                ],
+                "HIST222": [
+                        "African-American History since 1877"
+                ],
+                "HIST223": [
+                        "History of the American Indian"
+                ],
+                "HIST225": [
+                        "West Virginia Studies"
+                ],
+                "HIST230": [
+                        "History of East Asia"
+                ],
+                "HIST270": [
+                        "History of Science"
+                ],
+                "HIST290": [
+                        "History of the Holocaust"
+                ],
+                "HIST300": [
+                        "Research Methods in History"
+                ],
+                "HIST301": [
+                        "Ancient Greece"
+                ],
+                "HIST302": [
+                        "Ancient Rome"
+                ],
+                "HIST303": [
+                        "The Middle Ages"
+                ],
+                "HIST304": [
+                        "The Renaissance"
+                ],
+                "HIST305": [
+                        "France in the Age of Enlightenment"
+                ],
+                "HIST306": [
+                        "The British Empire"
+                ],
+                "HIST307": [
+                        "The Age of Dictators: Europe 1914-1945"
+                ],
+                "HIST308": [
+                        "History of European Colonialism"
+                ],
+                "HIST310": [
+                        "History of Modern Europe"
+                ],
+                "HIST320": [
+                        "History of Russia"
+                ],
+                "HIST340": [
+                        "History of Africa"
+                ],
+                "HIST350": [
+                        "History of the Middle East"
+                ],
+                "HIST360": [
+                        "History of Latin America"
+                ],
+                "HIST370": [
+                        "Asia and the Modern World"
+                ],
+                "HIST402": [
+                        "Colonial America"
+                ],
+                "HIST403": [
+                        "The Early Republic, 1783-1815"
+                ],
+                "HIST404": [
+                        "Jacksonian America, 1815-1846"
+                ],
+                "HIST405": [
+                        "Antebellum America, 1846-1861"
+                ],
+                "HIST406": [
+                        "Civil War And Reconstruction, 1861-1877"
+                ],
+                "HIST407": [
+                        "The Gilded Age, 1877-1900"
+                ],
+                "HIST408": [
+                        "The United States: 1900 to Second World War"
+                ],
+                "HIST409": [
+                        "The United States: WW II to the Present"
+                ],
+                "HIST415": [
+                        "The Cold War"
+                ],
+                "HIST480": [
+                        "Special Topic: History"
+                ],
+                "HIST481": [
+                        "Special Topic: History Fall"
+                ],
+                "HIST482": [
+                        "Special Topic: History Winter"
+                ],
+                "HIST483": [
+                        "Special Topic: History Spring"
+                ],
+                "HIST484": [
+                        "Special Topic: History Summer"
+                ],
+                "HIST490": [
+                        "Independent Study: History"
+                ],
+                "HIST491": [
+                        "Writing a Research Proposal"
+                ],
+                "HIST498": [
+                        "Senior Seminar in Histor"
+                ]
+        },
+        "Homeland Security": {
+                "HLSS150": [
+                        "Introduction to Homeland Security"
+                ],
+                "HLSS154": [
+                        "Mind of a Terrorist"
+                ],
+                "HLSS212": [
+                        "Chemical, Biological, and Radiological Hazards"
+                ],
+                "HLSS215": [
+                        "Regulatory Issues in Weapons of Mass Destruction"
+                ],
+                "HLSS230": [
+                        "Chemistry of Explosives"
+                ],
+                "HLSS231": [
+                        "History of Explosive Ordnance Disposal"
+                ],
+                "HLSS232": [
+                        "Electronics, Electricity, and Explosives"
+                ],
+                "HLSS233": [
+                        "Explosive Incident Assessment: Methods, Practices, Protocols"
+                ],
+                "HLSS300": [
+                        "Research Methods in Homeland Security Studies"
+                ],
+                "HLSS302": [
+                        "Introduction to Homeland Security and Defense"
+                ],
+                "HLSS303": [
+                        "Homeland Security Risk, Threats and Consequences"
+                ],
+                "HLSS305": [
+                        "Private Sector Homeland Security"
+                ],
+                "HLSS310": [
+                        "Critical Infrastructure Protection"
+                ],
+                "HLSS311": [
+                        "Border and Coastal Security"
+                ],
+                "HLSS312": [
+                        "Port Security"
+                ],
+                "HLSS320": [
+                        "Intelligence and Homeland Security"
+                ],
+                "HLSS322": [
+                        "Homeland Security Legal and Ethical Issues"
+                ],
+                "HLSS323": [
+                        "Homegrown Violent Extremism"
+                ],
+                "HLSS498": [
+                        "Senior Seminar in Homeland Security"
+                ],
+                "HLSS499": [
+                        "Independent Study In Homeland Securit"
+                ]
+        },
+        "Hospitality Management": {
+                "HOSP100": [
+                        "Introduction to Hospitality Management"
+                ],
+                "HOSP101": [
+                        "Foodservice Sanitation"
+                ],
+                "HOSP110": [
+                        "Practical Food Safety and Awareness"
+                ],
+                "HOSP200": [
+                        "Food and Beverage Management"
+                ],
+                "HOSP201": [
+                        "Restaurant Operations Management"
+                ],
+                "HOSP202": [
+                        "Quantity Food Preparation"
+                ],
+                "HOSP203": [
+                        "Hotel and Restaurant Purchasing"
+                ],
+                "HOSP204": [
+                        "Introduction to Hotel and Restaurant Law"
+                ],
+                "HOSP205": [
+                        "Tourism and Travel Industry"
+                ],
+                "HOSP207": [
+                        "Principles of Cost Control in Foodservice Operations"
+                ],
+                "HOSP212": [
+                        "Fundamentals of Tourism Management"
+                ],
+                "HOSP221": [
+                        "Hospitality Marketing"
+                ],
+                "HOSP295": [
+                        "Restaurant Operations Seminar"
+                ],
+                "HOSP300": [
+                        "Managerial Accounting for the Hospitality Industry"
+                ],
+                "HOSP302": [
+                        "Hospitality Law"
+                ],
+                "HOSP304": [
+                        "Nutrition in the Food Service Industry"
+                ],
+                "HOSP308": [
+                        "Meeting and Convention Planning"
+                ],
+                "HOSP309": [
+                        "Convention Sales and Services"
+                ],
+                "HOSP310": [
+                        "Management of Lodging Operations"
+                ],
+                "HOSP311": [
+                        "Club Management"
+                ],
+                "HOSP313": [
+                        "Theory and Concepts of Leisure"
+                ],
+                "HOSP316": [
+                        "History and Culture of Wine"
+                ],
+                "HOSP319": [
+                        "Foodservice Facilities Design"
+                ],
+                "HOSP320": [
+                        "Business and Conference Hospitality Mgmt"
+                ],
+                "HOSP321": [
+                        "Marketing and the Hospitality Industry"
+                ],
+                "HOSP325": [
+                        "Revenue Management for the Hospitality Industry"
+                ],
+                "HOSP335": [
+                        "Leadership and Management in Hospitality"
+                ],
+                "HOSP350": [
+                        "Managing Technology in the Hospitality Industry"
+                ],
+                "HOSP400": [
+                        "Quality Service Management"
+                ],
+                "HOSP410": [
+                        "Advanced Tourism and Hospitality Management"
+                ],
+                "HOSP412": [
+                        "Destinations Management and Marketing"
+                ],
+                "HOSP413": [
+                        "Meeting and Event Risk Management"
+                ],
+                "HOSP415": [
+                        "Destinations and Cultures"
+                ],
+                "HOSP495": [
+                        "Senior Seminar in Hospitality Managemen"
+                ]
+        },
+        "Humanities": {
+                "ARTH200": [
+                        "Art Appreciation"
+                ],
+                "ARTH241": [
+                        "Film and Literature"
+                ],
+                "MUSI200": [
+                        "Music Appreciation"
+                ],
+                "MUSI250": [
+                        "World Music and Culture"
+                ]
+        },
+        "Information Technology": {
+                "DSIN141": [
+                        "Image Enhancement using Adobe Photoshop"
+                ],
+                "DSIN143": [
+                        "Design Using Adobe InDesign"
+                ],
+                "DSIN241": [
+                        "Illustration & Design Using Adobe Illustrator"
+                ],
+                "ENTD200": [
+                        "Fundamentals of Programming"
+                ],
+                "ENTD211": [
+                        "Introduction to Software Design"
+                ],
+                "ENTD220": [
+                        "Introduction to Python"
+                ],
+                "ENTD261": [
+                        "Scripting Languages for the Administrator"
+                ],
+                "ENTD311": [
+                        "Analysis and Design of Information Systems"
+                ],
+                "ENTD313": [
+                        "Mobile Application Design and Development"
+                ],
+                "ENTD320": [
+                        "Intermediate Python Programming"
+                ],
+                "ENTD321": [
+                        "Object Oriented Programming and UML"
+                ],
+                "ENTD322": [
+                        "Application Development for the Droid"
+                ],
+                "ENTD333": [
+                        "Application Development for the iPhone and iPad"
+                ],
+                "ENTD361": [
+                        "Enterprise Development Using VB.NET: Introduction"
+                ],
+                "ENTD380": [
+                        "Introduction to Object Oriented Programming with Java"
+                ],
+                "ENTD381": [
+                        "Object Oriented Programming With Java"
+                ],
+                "ENTD411": [
+                        "Application Development"
+                ],
+                "ENTD412": [
+                        "Systems Engineering"
+                ],
+                "ENTD413": [
+                        "Advanced Mobile Application Design and Development"
+                ],
+                "ENTD461": [
+                        "Enterprise Development Using VB.NET: Advanced"
+                ],
+                "ENTD462": [
+                        "Enterprise Development Using ASP.NET"
+                ],
+                "ENTD463": [
+                        "Enterprise Development Using C#"
+                ],
+                "ENTD464": [
+                        "Enterprise Development using .NET: Project"
+                ],
+                "ENTD481": [
+                        "Enterprise Development using J2EE"
+                ],
+                "INFO161": [
+                        "Relational Databases with MS Access: Introduction"
+                ],
+                "INFO171": [
+                        "Relational Databases with Oracle: SQL Introduction"
+                ],
+                "INFO221": [
+                        "Relational Database Concepts"
+                ],
+                "INFO261": [
+                        "Relational Databases with MS Access: Advanced"
+                ],
+                "INFO262": [
+                        "Relational Databases with MS Access: Project"
+                ],
+                "INFO271": [
+                        "Relational Databases with Oracle: SQL Intermediate"
+                ],
+                "INFO321": [
+                        "Database Management Systems"
+                ],
+                "INFO331": [
+                        "Management Information Systems"
+                ],
+                "INFO371": [
+                        "Relational Databases With Oracle: PL/SQL"
+                ],
+                "INFO399": [
+                        "Information Technology Practicum"
+                ],
+                "INFO471": [
+                        "Relational Databases With Oracle: Forms & Reports"
+                ],
+                "INFO498": [
+                        "Information Technology: Capstone"
+                ],
+                "ISSC321": [
+                        "Computer Systems Organization: Intermediate"
+                ],
+                "ISSC322": [
+                        "Computer Systems Organization: Advanced"
+                ],
+                "ISSC323": [
+                        "Computer Hardware Systems"
+                ],
+                "ISSC325": [
+                        "Biometrics"
+                ],
+                "ISSC326": [
+                        "Cloud Computing"
+                ],
+                "ISSC331": [
+                        "Legal Issues in Information Security"
+                ],
+                "ISSC341": [
+                        "Introduction to Networking"
+                ],
+                "ISSC342": [
+                        "Operating Systems: Hardening and Security"
+                ],
+                "ISSC343": [
+                        "Wireless Networks"
+                ],
+                "ISSC344": [
+                        "Open Source System Security"
+                ],
+                "ISSC345": [
+                        "Service Oriented Architecture"
+                ],
+                "ISSC351": [
+                        "Computer Forensics"
+                ],
+                "ISSC361": [
+                        "Information Assurance"
+                ],
+                "ISSC362": [
+                        "IT Security: Attack & Defense"
+                ],
+                "ISSC363": [
+                        "IT Security: Risk Management"
+                ],
+                "ISSC364": [
+                        "IT Security: Access Control and Authentication"
+                ],
+                "ISSC366": [
+                        "IT Security: Cryptography"
+                ],
+                "ISSC368": [
+                        "IT Security: Physical and Peripheral Defense"
+                ],
+                "ISSC386": [
+                        "Green Computing: Foundations and Strategies"
+                ],
+                "ISSC387": [
+                        "Green Computing: Advanced Topics"
+                ],
+                "ISSC411": [
+                        "Application Security"
+                ],
+                "ISSC412": [
+                        "Mobile Application Security"
+                ],
+                "ISSC415": [
+                        "Mobile Device Security"
+                ],
+                "ISSC421": [
+                        "Computer and Network Security"
+                ],
+                "ISSC422": [
+                        "Information Security"
+                ],
+                "ISSC424": [
+                        "Virtualization Security"
+                ],
+                "ISSC426": [
+                        "Cloud Security and Privacy"
+                ],
+                "ISSC431": [
+                        "Database Systems Security"
+                ],
+                "ISSC442": [
+                        "Wireless and Mobile Network Security"
+                ],
+                "ISSC451": [
+                        "Cybercrime"
+                ],
+                "ISSC452": [
+                        "Cybersecurity"
+                ],
+                "ISSC455": [
+                        "Digital Forensics: Investigation Procedures and Response"
+                ],
+                "ISSC456": [
+                        "Digital Forensics: Investigating Wireless Networks and Devices"
+                ],
+                "ISSC457": [
+                        "Digital Forensics: Investigating Network Intrusions and Cybercrime Security"
+                ],
+                "ISSC458": [
+                        "Digital Forensics: Investigating Data and Image Files"
+                ],
+                "ISSC459": [
+                        "Digital Forensics: Hard Disc and Operating Systems"
+                ],
+                "ISSC461": [
+                        "IT Security: Countermeasures"
+                ],
+                "ISSC471": [
+                        "IT Security: Auditing"
+                ],
+                "ISSC481": [
+                        "IT Security: Planning and Policy"
+                ],
+                "ISSC483": [
+                        "Privacy and Cyberethics in Mobile and Wireless Networks"
+                ],
+                "ISSC490": [
+                        "IT Security: Business Continuity"
+                ],
+                "ISSC498": [
+                        "IT Security: Implementation Plan: Capstone"
+                ],
+                "ISSC499": [
+                        "Senior Seminar in Cybersecurity"
+                ],
+                "ITCC111": [
+                        "Basic Productivity Applications"
+                ],
+                "ITCC112": [
+                        "Advanced Productivity Applications"
+                ],
+                "ITCC113": [
+                        "Office Presentation Applications"
+                ],
+                "ITCC114": [
+                        "Office Communications Applications"
+                ],
+                "ITCC121": [
+                        "Introduction to Computer Science"
+                ],
+                "ITCC200": [
+                        "Application Software Integration"
+                ],
+                "ITCC231": [
+                        "Introduction to Information Technology Writing"
+                ],
+                "ITCC298": [
+                        "Computer Technology Intermediate Capstone"
+                ],
+                "ITCC498": [
+                        "Computer Technology Advanced Capstone"
+                ],
+                "ITMG321": [
+                        "Information Technology Project Management"
+                ],
+                "ITMG322": [
+                        "Project Management Using MS Project"
+                ],
+                "ITMG371": [
+                        "Contemporary Internet Topics"
+                ],
+                "ITMG381": [
+                        "Cyberlaw and Privacy in a Digital Age"
+                ],
+                "ITMG421": [
+                        "Virtual Management"
+                ],
+                "ITMG481": [
+                        "Ethics in Information Technology"
+                ],
+                "ITMG498": [
+                        "IT Management: Senior Seminar"
+                ],
+                "ITNW200": [
+                        "Cisco I"
+                ],
+                "ITNW201": [
+                        "Cisco II"
+                ],
+                "ITNW210": [
+                        "Cloud Foundations"
+                ],
+                "ITNW211": [
+                        "Cloud Architecting"
+                ],
+                "WEBD121": [
+                        "Web Development Fundamentals"
+                ],
+                "WEBD122": [
+                        "Introduction to Web Analytics"
+                ],
+                "WEBD220": [
+                        "Web 2.0 Fundamentals"
+                ],
+                "WEBD221": [
+                        "Intermediate Web Development"
+                ],
+                "WEBD222": [
+                        "Advanced Web Analytics"
+                ],
+                "WEBD241": [
+                        "Web Development Using JavaScript"
+                ],
+                "WEBD300": [
+                        "User Interface Design"
+                ],
+                "WEBD311": [
+                        "Internet Concepts"
+                ],
+                "WEBD321": [
+                        "Web eCommerce Development"
+                ],
+                "WEBD322": [
+                        "Web Videography"
+                ],
+                "WEBD323": [
+                        "Search Engine Optimization"
+                ],
+                "WEBD341": [
+                        "Enterprise Data Exchange Using XML"
+                ],
+                "ENTD268": [
+                        "Information System Design"
+                ],
+                "ENTD278": [
+                        "Object Oriented Design"
+                ],
+                "INFO222": [
+                        "Database Concepts"
+                ],
+                "ISSC221": [
+                        "Intermediate Computer Systems"
+                ],
+                "ISSC231": [
+                        "Networking Concepts"
+                ],
+                "ISSC242": [
+                        "Hardening Operating Systems"
+                ],
+                "ISSC262": [
+                        "Red and Blue Team Security"
+                ],
+                "ISSC266": [
+                        "Cryptography Concepts"
+                ],
+                "ISSC290": [
+                        "Securing Databases"
+                ],
+                "ISSC297": [
+                        "Securing Applications"
+                ],
+                "ITMG281": [
+                        "Law, Privacy, and Digital Dat"
+                ]
+        },
+        "Intelligence Studies": {
+                "INTL150": [
+                        "Intelligence Analysis and Security Management"
+                ],
+                "INTL200": [
+                        "Introduction to Intelligence Studies"
+                ],
+                "INTL301": [
+                        "U.S. Intelligence Community"
+                ],
+                "INTL304": [
+                        "Intelligence Collection"
+                ],
+                "INTL305": [
+                        "Law and Ethics in Intelligence"
+                ],
+                "INTL401": [
+                        "Critical Analysis"
+                ],
+                "INTL402": [
+                        "Intelligence Analysis"
+                ],
+                "INTL408": [
+                        "Counterintelligence Operations"
+                ],
+                "INTL409": [
+                        "Counterintelligence Analysis"
+                ],
+                "INTL410": [
+                        "Counterintelligence"
+                ],
+                "INTL411": [
+                        "International Criminal Organizations"
+                ],
+                "INTL412": [
+                        "Espionage/Counterespionage"
+                ],
+                "INTL413": [
+                        "Denial and Deception"
+                ],
+                "INTL419": [
+                        "Applied Geospatial Intelligence"
+                ],
+                "INTL421": [
+                        "Signals Intelligence and Security"
+                ],
+                "INTL422": [
+                        "Open Source Collection"
+                ],
+                "INTL423": [
+                        "Human Intelligence"
+                ],
+                "INTL424": [
+                        "Interrogation"
+                ],
+                "INTL431": [
+                        "Criminal Intelligence Analysis"
+                ],
+                "INTL432": [
+                        "Geographic Information Systems I"
+                ],
+                "INTL433": [
+                        "Geographic Information Systems II"
+                ],
+                "INTL434": [
+                        "Threat Analysis"
+                ],
+                "INTL440": [
+                        "Cyber Warfare"
+                ],
+                "INTL442": [
+                        "Tactical Intelligence"
+                ],
+                "INTL443": [
+                        "Foreign Intelligence Organizations"
+                ],
+                "INTL446": [
+                        "Intelligence and Narcotics"
+                ],
+                "INTL450": [
+                        "Terrorism and Counterterrorism"
+                ],
+                "INTL451": [
+                        "Terrorism and U.S. National Security"
+                ],
+                "INTL453": [
+                        "Illicit Finance"
+                ],
+                "INTL454": [
+                        "Forecasting Terrorism"
+                ],
+                "INTL498": [
+                        "Senior Seminar in Intelligence Studies"
+                ],
+                "SSGS300": [
+                        "Research Design and Methods"
+                ],
+                "SSGS490": [
+                        "Independent Study"
+                ],
+                "SSGS492": [
+                        "Special Topics"
+                ],
+                "SSGS495": [
+                        "Internship Progra"
+                ]
+        },
+        "International Relations": {
+                "IRLS200": [
+                        "Information Literacy and Global Citizenship"
+                ],
+                "IRLS210": [
+                        "International Relations I"
+                ],
+                "IRLS211": [
+                        "International Relations II"
+                ],
+                "IRLS213": [
+                        "Political Geography"
+                ],
+                "IRLS214": [
+                        "American Foreign Policy"
+                ],
+                "IRLS260": [
+                        "Middle Eastern Culture"
+                ],
+                "IRLS300": [
+                        "Comparative Political Systems"
+                ],
+                "IRLS301": [
+                        "International Organizations"
+                ],
+                "IRLS302": [
+                        "International Development"
+                ],
+                "IRLS310": [
+                        "Introduction to Human Security"
+                ],
+                "IRLS322": [
+                        "African Politics"
+                ],
+                "IRLS331": [
+                        "Asian Politics"
+                ],
+                "IRLS343": [
+                        "Government and Security of Russia"
+                ],
+                "IRLS344": [
+                        "European Politics"
+                ],
+                "IRLS355": [
+                        "Latin American Politics"
+                ],
+                "IRLS360": [
+                        "Global Politics of Islam"
+                ],
+                "IRLS392": [
+                        "Globalization and the Market Economy"
+                ],
+                "IRLS400": [
+                        "Human Rights"
+                ],
+                "IRLS402": [
+                        "International Law and Regimes"
+                ],
+                "IRLS405": [
+                        "National and Transnational Justice"
+                ],
+                "IRLS409": [
+                        "Environmental Security"
+                ],
+                "IRLS412": [
+                        "Comparative Foreign Policy"
+                ],
+                "IRLS413": [
+                        "International Conflict Resolution"
+                ],
+                "IRLS414": [
+                        "Principles of Peacekeeping"
+                ],
+                "IRLS415": [
+                        "Peacekeeping Logistics"
+                ],
+                "IRLS416": [
+                        "The North Atlantic Treaty Organization (NATO)"
+                ],
+                "IRLS417": [
+                        "International Civil Order"
+                ],
+                "IRLS460": [
+                        "Government & Security in the Middle East"
+                ],
+                "IRLS463": [
+                        "Arab-Israeli Conflict: Contemp. Politics & Dipl."
+                ],
+                "IRLS468": [
+                        "Politics and Security in the Persian Gulf"
+                ],
+                "IRLS490": [
+                        "Independent Study: International Relations"
+                ],
+                "IRLS491": [
+                        "Special Topics in International Relations"
+                ],
+                "IRLS492": [
+                        "Senior Seminar in International Relations"
+                ],
+                "IRLS493": [
+                        "Capstone Middle Eastern Studie"
+                ]
+        },
+        "Legal Studies": {
+                "LSTD100": [
+                        "Introduction to Law for Paralegals"
+                ],
+                "LSTD201": [
+                        "Litigation"
+                ],
+                "LSTD202": [
+                        "Real Estate Law"
+                ],
+                "LSTD203": [
+                        "Criminal Law and Procedure for the Paralegal"
+                ],
+                "LSTD204": [
+                        "Introduction to the Courts"
+                ],
+                "LSTD205": [
+                        "Legal Research and Writing"
+                ],
+                "LSTD207": [
+                        "Civil Practice and Procedure"
+                ],
+                "LSTD209": [
+                        "Sports Law, Risk, and Regulation"
+                ],
+                "LSTD210": [
+                        "Legal Ethics"
+                ],
+                "LSTD299": [
+                        "Sophomore Seminar in Paralegal Studies"
+                ],
+                "LSTD300": [
+                        "Administrative Law and Policy"
+                ],
+                "LSTD301": [
+                        "Constitutional Law"
+                ],
+                "LSTD302": [
+                        "Criminal Law"
+                ],
+                "LSTD303": [
+                        "Family Law"
+                ],
+                "LSTD304": [
+                        "Military Law"
+                ],
+                "LSTD306": [
+                        "International Law"
+                ],
+                "LSTD350": [
+                        "Victim Advocacy"
+                ],
+                "LSTD400": [
+                        "Criminal Legal Process"
+                ],
+                "LSTD401": [
+                        "Maritime Law"
+                ],
+                "LSTD402": [
+                        "Immigration Law and Policy"
+                ],
+                "LSTD453": [
+                        "Evidence"
+                ],
+                "LSTD497": [
+                        "Senior Seminar in Legal Studie"
+                ]
+        },
+        "Literature": {
+                "LITR201": [
+                        "World Literature through the Renaissance"
+                ],
+                "LITR202": [
+                        "World Literature since the Renaissance"
+                ],
+                "LITR204": [
+                        "Contemporary World Culture Through Literature"
+                ],
+                "LITR205": [
+                        "Cultural Diversity in Contemporary American Literature"
+                ],
+                "LITR210": [
+                        "English Literature: Beowulf to18th Century"
+                ],
+                "LITR211": [
+                        "English Literature: 18th Century to Present"
+                ],
+                "LITR220": [
+                        "American Literature before The Civil War"
+                ],
+                "LITR221": [
+                        "American Literature from The Civil War to Present"
+                ],
+                "LITR310": [
+                        "British Fiction"
+                ],
+                "LITR316": [
+                        "British Poetry"
+                ],
+                "LITR320": [
+                        "American Fiction"
+                ],
+                "LITR322": [
+                        "American Poetry I"
+                ],
+                "LITR324": [
+                        "African-American Literature"
+                ],
+                "LITR325": [
+                        "Gothic Literature"
+                ],
+                "LITR330": [
+                        "Literary Theory"
+                ],
+                "LITR337": [
+                        "Women Writers"
+                ],
+                "LITR341": [
+                        "Folklore"
+                ],
+                "LITR355": [
+                        "Latin American Literature"
+                ],
+                "LITR365": [
+                        "Middle Eastern Literature"
+                ],
+                "LITR402": [
+                        "Shakespeare: An Author for the Ages"
+                ],
+                "LITR403": [
+                        "The Work and Life of Ernest Hemingway"
+                ],
+                "LITR404": [
+                        "Mark Twai"
+                ]
+        },
+        "Management": {
+                "ENTR200": [
+                        "Leadership in Small Business Ventures"
+                ],
+                "HRMT101": [
+                        "Human Relations Communication"
+                ],
+                "HRMT200": [
+                        "Human Resource Fundamentals"
+                ],
+                "HRMT201": [
+                        "Employee Training and Development"
+                ],
+                "HRMT202": [
+                        "Interviewing Fundamentals"
+                ],
+                "HRMT300": [
+                        "Negotiation I"
+                ],
+                "HRMT301": [
+                        "Negotiation II"
+                ],
+                "HRMT407": [
+                        "Human Resource Management"
+                ],
+                "HRMT411": [
+                        "Dispute Resolution"
+                ],
+                "HRMT412": [
+                        "Compensation and Benefits"
+                ],
+                "HRMT413": [
+                        "Employment and Labor Relations"
+                ],
+                "HRMT415": [
+                        "Human Resource Management Information Systems"
+                ],
+                "HRMT416": [
+                        "Human Resource Development"
+                ],
+                "HRMT419": [
+                        "Recruitment and Staffing"
+                ],
+                "MGMT100": [
+                        "Human Relations"
+                ],
+                "MGMT101": [
+                        "Principles of Supervision"
+                ],
+                "MGMT200": [
+                        "Ethics Fundamentals"
+                ],
+                "MGMT201": [
+                        "Organizational Fundamentals"
+                ],
+                "MGMT296": [
+                        "Capstone: Portfolio"
+                ],
+                "MGMT310": [
+                        "Principles and Theory of Management"
+                ],
+                "MGMT311": [
+                        "Organizational Behavior"
+                ],
+                "MGMT312": [
+                        "Leadership & Motivation"
+                ],
+                "MGMT313": [
+                        "Organizational Change"
+                ],
+                "MGMT314": [
+                        "Management Ethics"
+                ],
+                "MGMT315": [
+                        "Management Communications"
+                ],
+                "MGMT331": [
+                        "Leading Yourself Foundations"
+                ],
+                "MGMT332": [
+                        "Leading Others Leadership Counseling"
+                ],
+                "MGMT410": [
+                        "Strategic Management"
+                ],
+                "MGMT414": [
+                        "Strategic Planning"
+                ],
+                "MGMT490": [
+                        "Independent Study: Management"
+                ],
+                "MGMT495": [
+                        "Senior Seminar in Management"
+                ],
+                "MGMT496": [
+                        "Capstone: Portfolio"
+                ],
+                "TLMT200": [
+                        "Retail Shipping and Receiving"
+                ],
+                "TLMT201": [
+                        "Retail Transportatio"
+                ]
+        },
+        "Marketing": {
+                "MKTG201": [
+                        "Fundamentals of Marketing"
+                ],
+                "MKTG301": [
+                        "Principles of Sales"
+                ],
+                "MKTG303": [
+                        "Strategic Internet Marketing"
+                ],
+                "MKTG304": [
+                        "Public Relations"
+                ],
+                "MKTG305": [
+                        "Advertising"
+                ],
+                "MKTG307": [
+                        "Consumer Behavior"
+                ],
+                "MKTG308": [
+                        "Social Media Marketing"
+                ],
+                "MKTG310": [
+                        "Digital Marketing"
+                ],
+                "MKTG400": [
+                        "Marketing Research"
+                ],
+                "MKTG401": [
+                        "Marketing Strategy"
+                ],
+                "MKTG403": [
+                        "Marketing Management"
+                ],
+                "MKTG407": [
+                        "International Marketing"
+                ],
+                "MKTG410": [
+                        "Contracting and Negotiating"
+                ],
+                "MKTG420": [
+                        "Branding"
+                ],
+                "MKTG423": [
+                        "Marketing Writing"
+                ],
+                "MKTG425": [
+                        "Integrated Marketing Communications"
+                ],
+                "MKTG495": [
+                        "Senior Seminar in Marketing"
+                ],
+                "MKTG499": [
+                        "Independent Study: Marketin"
+                ]
+        },
+        "Mathematics": {
+                "MATH100": [
+                        "Pre-Algebra"
+                ],
+                "MATH101": [
+                        "Introduction to College Algebra"
+                ],
+                "MATH110": [
+                        "College Algebra"
+                ],
+                "MATH111": [
+                        "College Trigonometry"
+                ],
+                "MATH120": [
+                        "Introduction to Statistics"
+                ],
+                "MATH125": [
+                        "Math for Liberal Arts Majors"
+                ],
+                "MATH200": [
+                        "Analytic Geometry"
+                ],
+                "MATH210": [
+                        "Discrete Mathematics"
+                ],
+                "MATH220": [
+                        "Linear Algebra"
+                ],
+                "MATH225": [
+                        "Calculus"
+                ],
+                "MATH226": [
+                        "Calculus II"
+                ],
+                "MATH227": [
+                        "Calculus III"
+                ],
+                "MATH239": [
+                        "Data Analysis and Presentation"
+                ],
+                "MATH240": [
+                        "Differential Equations"
+                ],
+                "MATH302": [
+                        "Statistics"
+                ],
+                "MATH303": [
+                        "Probability and Statistics for Engineers and Scientists"
+                ],
+                "MATH305": [
+                        "Real Analysis"
+                ],
+                "MATH320": [
+                        "Mathematical Modeling"
+                ],
+                "MATH325": [
+                        "Linear Regression I"
+                ],
+                "MATH328": [
+                        "Probability Theory with Applications"
+                ],
+                "MATH330": [
+                        "Linear Optimization"
+                ],
+                "MATH335": [
+                        "Non Parametric Statistics"
+                ],
+                "MATH340": [
+                        "Multivariate Statistics"
+                ],
+                "MATH360": [
+                        "Mathematics History and Development"
+                ],
+                "MATH375": [
+                        "Inventory Models and Systems"
+                ],
+                "MATH410": [
+                        "Design of Experiments"
+                ],
+                "MATH412": [
+                        "Graph Theory"
+                ],
+                "MATH415": [
+                        "Operational Simulation"
+                ],
+                "MATH418": [
+                        "Topology"
+                ],
+                "MATH419": [
+                        "Set Theory"
+                ],
+                "MATH420": [
+                        "Game Theory and Decision Models"
+                ],
+                "MATH431": [
+                        "Linear Regression II"
+                ],
+                "MATH440": [
+                        "Stochastic Processes"
+                ],
+                "MATH460": [
+                        "Principles of Applied Mathematics"
+                ],
+                "MATH470": [
+                        "Measurement Theory"
+                ],
+                "MATH499": [
+                        "Senior Seminar in Mathematic"
+                ]
+        },
+        "Military History": {
+                "MILH201": [
+                        "Introduction to Military History"
+                ],
+                "MILH202": [
+                        "Survey of American Military History"
+                ],
+                "MILH221": [
+                        "War From Antiquity to 1700"
+                ],
+                "MILH222": [
+                        "War from 1700 to the Present"
+                ],
+                "MILH303": [
+                        "Readings in Military Leadership"
+                ],
+                "MILH304": [
+                        "Readings in Military Philosophy"
+                ],
+                "MILH320": [
+                        "The American Revolution"
+                ],
+                "MILH355": [
+                        "World War I"
+                ],
+                "MILH360": [
+                        "World War II"
+                ],
+                "MILH362": [
+                        "Ancient Military History"
+                ],
+                "MILH363": [
+                        "17th and 18th Century Military History"
+                ],
+                "MILH364": [
+                        "Medieval Military History"
+                ],
+                "MILH365": [
+                        "The Napoleonic Wars and the Long Peace"
+                ],
+                "MILH370": [
+                        "The Korean War"
+                ],
+                "MILH371": [
+                        "The Vietnam War"
+                ],
+                "MILH411": [
+                        "Diplomacy and War I"
+                ],
+                "MILH412": [
+                        "Diplomacy and War II"
+                ],
+                "MILH422": [
+                        "History of Peacekeeping: 1988-Present"
+                ],
+                "MILH480": [
+                        "Special Topic: Military History"
+                ],
+                "MILH490": [
+                        "Independent Study: History"
+                ],
+                "MILH498": [
+                        "Senior Seminar in Military Histor"
+                ]
+        },
+        "Natural Sciences": {
+                "CHEM233": [
+                        "Organic Chemistry I with Lab"
+                ],
+                "CHEM234": [
+                        "Organic Chemistry II with La"
+                ]
+        },
+        "Nursing": {
+                "NURS150": [
+                        "Military Nursing Fundamentals and Care of the Childbearing Family and Children"
+                ],
+                "NURS151": [
+                        "Military Nursing Fundamentals and Care of the Adult"
+                ],
+                "NURS152": [
+                        "Military Nursing Fundamentals and Care of the Adult and Childbearing Family"
+                ],
+                "NURS153": [
+                        "Paramedic Nursing Fundamentals and Care of the Adult & the Childbearing Family"
+                ],
+                "NURS154": [
+                        "Paramedic Nursing Fundamentals & Care of the Adult"
+                ],
+                "NURS155": [
+                        "Paramedic Nursing Fundamentals & Care of the Child Bearing Family and Children"
+                ],
+                "NURS156": [
+                        "Military Nursing Fundamentals & Adult Nursing & Mental Health Nursing"
+                ],
+                "NURS157": [
+                        "Fundamentals and Adult Nursing Transition Course"
+                ],
+                "NURS158": [
+                        "Fundamentals, Adult, and Child and Family Nursing Transition Course"
+                ],
+                "NURS159": [
+                        "Fundamentals, Adult, and Childbearing Family Nursing Transition Course"
+                ],
+                "NURS160": [
+                        "Fundamentals, Adult, and Mental Health Nursing Transition Course"
+                ],
+                "NURS161": [
+                        "Fundamentals and Adult Nursing Transition Course"
+                ],
+                "NURS300": [
+                        "Professional Transitions in Nursing"
+                ],
+                "NURS310": [
+                        "Assessment, Evaluation and Clinical Decision-Making"
+                ],
+                "NURS325": [
+                        "Integrated Pathophysiology and Clinical Pharmacology"
+                ],
+                "NURS340": [
+                        "Science of Evidence-Based Practice"
+                ],
+                "NURS350": [
+                        "Transformational Leadership and Cultures of Safety"
+                ],
+                "NURS400": [
+                        "Emerging Scholarship and Trends in Healthcare"
+                ],
+                "NURS401": [
+                        "Caring for Today's Veterans"
+                ],
+                "NURS421": [
+                        "Community Health I"
+                ],
+                "NURS422": [
+                        "Community Health II"
+                ],
+                "NURS498": [
+                        "Senior Seminar in Nursing Studie"
+                ]
+        },
+        "Philosophy": {
+                "PHIL101": [
+                        "Introduction to Philosophy"
+                ],
+                "PHIL110": [
+                        "Critical Thinking"
+                ],
+                "PHIL200": [
+                        "Introduction to Ethics"
+                ],
+                "PHIL202": [
+                        "Philosophy of Science"
+                ],
+                "PHIL300": [
+                        "Logic"
+                ],
+                "PHIL302": [
+                        "Ancient Western Philosophy"
+                ],
+                "PHIL303": [
+                        "Medieval Philosophy"
+                ],
+                "PHIL320": [
+                        "Environmental Ethics"
+                ],
+                "PHIL400": [
+                        "Contemporary Issues in Philosophy"
+                ],
+                "PHIL410": [
+                        "God and World"
+                ],
+                "PHIL415": [
+                        "Enlightenment Philosophy"
+                ],
+                "PHIL416": [
+                        "Modern & Post-Modern Philosoph"
+                ]
+        },
+        "Philosophy and Religion": {
+                "PHRL498": [
+                        "Religion and Philosophy Capston"
+                ]
+        },
+        "Political Science": {
+                "POLS101": [
+                        "Introduction to Political Science"
+                ],
+                "POLS210": [
+                        "American Government I"
+                ],
+                "POLS211": [
+                        "American Government II"
+                ],
+                "POLS213": [
+                        "Political Theory"
+                ],
+                "POLS301": [
+                        "Ethics in Politics"
+                ],
+                "POLS311": [
+                        "Political Parties and Interest Groups"
+                ],
+                "POLS312": [
+                        "State, Local, and Community Politics"
+                ],
+                "POLS401": [
+                        "The Psychology of American Politics"
+                ],
+                "POLS410": [
+                        "Public Policy"
+                ],
+                "POLS496": [
+                        "Portfolio and Critical Reflection in Political Science"
+                ],
+                "POLS497": [
+                        "Senior Seminar in Political Scienc"
+                ]
+        },
+        "Professional Studies": {
+                "BUSN120": [
+                        "Real Estate Principles"
+                ],
+                "BUSN121": [
+                        "Real Estate Practice"
+                ],
+                "BUSN220": [
+                        "Real Estate Finance"
+                ],
+                "BUSN221": [
+                        "Real Estate Appraisal"
+                ],
+                "BUSN222": [
+                        "Real Estate Property Managemen"
+                ]
+        },
+        "Psychology": {
+                "PSYC101": [
+                        "Introduction to Psychology"
+                ],
+                "PSYC102": [
+                        "Professional Careers and Education in Psychology"
+                ],
+                "PSYC201": [
+                        "Introduction to Social Psychology"
+                ],
+                "PSYC221": [
+                        "Personality Theories"
+                ],
+                "PSYC300": [
+                        "Research Methods in Psychology"
+                ],
+                "PSYC303": [
+                        "Learning and Cognition"
+                ],
+                "PSYC304": [
+                        "Perception"
+                ],
+                "PSYC305": [
+                        "History and Systems of Psychology"
+                ],
+                "PSYC324": [
+                        "Psychology of Addiction & Substance Abuse"
+                ],
+                "PSYC325": [
+                        "Biopsychology"
+                ],
+                "PSYC343": [
+                        "Adult Development"
+                ],
+                "PSYC360": [
+                        "Psychology of Terrorism"
+                ],
+                "PSYC406": [
+                        "Psychopathology"
+                ],
+                "PSYC431": [
+                        "Psychology of Disaster"
+                ],
+                "PSYC432": [
+                        "Psychology of Combat"
+                ],
+                "PSYC460": [
+                        "Sports Psychology"
+                ],
+                "PSYC490": [
+                        "Independent Study: Psychology"
+                ],
+                "PSYC498": [
+                        "Senior Seminar in Psycholog"
+                ]
+        },
+        "Public Health": {
+                "PBHE111": [
+                        "Introduction to Health Care Administration"
+                ],
+                "PBHE112": [
+                        "Health Services Organization"
+                ],
+                "PBHE209": [
+                        "Wellness: Health Promotion and Disease Prevention"
+                ],
+                "PBHE211": [
+                        "Public Health in America"
+                ],
+                "PBHE215": [
+                        "Healthcare: Moral Issues"
+                ],
+                "PBHE315": [
+                        "Health Economics and Finance"
+                ],
+                "PBHE413": [
+                        "Special Operations in Emergency Medical Services"
+                ],
+                "PBHE426": [
+                        "Quarantine"
+                ],
+                "PBHE427": [
+                        "Epidemiology"
+                ],
+                "PBHE498": [
+                        "Senior Seminar in Public Healt"
+                ]
+        },
+        "Religion": {
+                "RELS101": [
+                        "Introduction to the Study of Religion"
+                ],
+                "RELS201": [
+                        "Introduction to World Religions"
+                ],
+                "RELS202": [
+                        "Religion in America"
+                ],
+                "RELS211": [
+                        "Introduction to the Old Testament"
+                ],
+                "RELS212": [
+                        "Introduction to the New Testament"
+                ],
+                "RELS311": [
+                        "Introduction to the Bible"
+                ],
+                "RELS330": [
+                        "Religions of the Middle East"
+                ],
+                "RELS350": [
+                        "Hinduism"
+                ],
+                "RELS351": [
+                        "Buddhism"
+                ],
+                "RELS352": [
+                        "Muhammad"
+                ],
+                "RELS353": [
+                        "Islam"
+                ],
+                "RELS405": [
+                        "Myth and Ritual"
+                ],
+                "RELS411": [
+                        "Religious Existentialism"
+                ],
+                "RELS422": [
+                        "The Teachings of Jesus"
+                ],
+                "RELS452": [
+                        "Religious Cult"
+                ]
+        },
+        "Retail Management": {
+                "RTMG150": [
+                        "Retail Organization Fundamentals"
+                ],
+                "RTMG200": [
+                        "Customer Relations"
+                ],
+                "RTMG201": [
+                        "Retail Inventory Management"
+                ],
+                "RTMG202": [
+                        "Risk Management"
+                ],
+                "RTMG203": [
+                        "Commercial Safety"
+                ],
+                "RTMG204": [
+                        "Finance Fundamentals"
+                ],
+                "RTMG220": [
+                        "Retail Asset Protection"
+                ],
+                "RTMG295": [
+                        "Retail Management Seminar"
+                ],
+                "RTMG300": [
+                        "Retail Strategy"
+                ],
+                "RTMG301": [
+                        "Retail Innovation"
+                ],
+                "RTMG302": [
+                        "Retail Operations"
+                ],
+                "RTMG303": [
+                        "Retail Merchandising Operations"
+                ],
+                "RTMG310": [
+                        "Digital Retail"
+                ],
+                "RTMG495": [
+                        "Senior Seminar in Retail Managemen"
+                ]
+        },
+        "Reverse Logistics Management": {
+                "RLMT301": [
+                        "Introduction to Reverse Logistics Management"
+                ],
+                "RLMT302": [
+                        "Environmental Issues in Reverse Logistics"
+                ],
+                "RLMT303": [
+                        "Technology in Reverse Logistics"
+                ],
+                "RLMT304": [
+                        "Reverse Logistics Policies and Procedures"
+                ],
+                "RLMT305": [
+                        "Cost and Benefit Analysis of Reverse Logistics"
+                ],
+                "RLMT306": [
+                        "Green Logistics Programs and Issues"
+                ],
+                "RLMT307": [
+                        "Food and Beverage Reverse Logistics"
+                ],
+                "RLMT309": [
+                        "Reverse Logistics Management and Operations"
+                ],
+                "RLMT400": [
+                        "Recalls Best Practices and Issues"
+                ],
+                "RLMT495": [
+                        "Senior Seminar in Reverse Logistics Managemen"
+                ]
+        },
+        "Science": {
+                "BIOL133": [
+                        "General Biology I with Lab"
+                ],
+                "BIOL134": [
+                        "General Biology II with Lab"
+                ],
+                "BIOL180": [
+                        "Introduction to Biology"
+                ],
+                "BIOL181": [
+                        "Introduction to Human Anatomy and Physiology"
+                ],
+                "BIOL201": [
+                        "Principles of Anatomy and Physiology with Lab"
+                ],
+                "BIOL202": [
+                        "Principles of Microbiology with Lab"
+                ],
+                "BIOL240": [
+                        "Elements of Biological Chemistry"
+                ],
+                "BIOL241": [
+                        "Cell Biology"
+                ],
+                "BIOL242": [
+                        "Evolutionary Biology"
+                ],
+                "BIOL250": [
+                        "Human Anatomy and Physiology with Lab I"
+                ],
+                "BIOL251": [
+                        "Human Anatomy and Physiology with Lab II"
+                ],
+                "BIOL301": [
+                        "Molecular Biology"
+                ],
+                "BIOL342": [
+                        "Evolutionary Biology with Lab"
+                ],
+                "CHEM133": [
+                        "General Chemistry I with Lab"
+                ],
+                "CHEM134": [
+                        "General Chemistry II with Lab"
+                ],
+                "CHEM180": [
+                        "Introduction to Chemistry"
+                ],
+                "ERSC180": [
+                        "Introduction to Meteorology"
+                ],
+                "ERSC181": [
+                        "Introduction to Geology"
+                ],
+                "ERSC204": [
+                        "Earth System History"
+                ],
+                "ERSC206": [
+                        "Weather and Climate"
+                ],
+                "ERSC302": [
+                        "Geomorphology"
+                ],
+                "ERSC303": [
+                        "Conservation of Natural Resources"
+                ],
+                "ERSC305": [
+                        "Ocean and Atmospheric Dynamics"
+                ],
+                "ERSC401": [
+                        "Natural Hazards and Society"
+                ],
+                "GEOG103": [
+                        "Physical Geography"
+                ],
+                "GEOG200": [
+                        "Fundamentals of Geographic Information Systems I"
+                ],
+                "GEOG201": [
+                        "Fundamentals of Geographic Information Systems II"
+                ],
+                "PHYS133": [
+                        "Elements of Physics I with Lab"
+                ],
+                "PHYS134": [
+                        "Elements of Physics II with Lab"
+                ],
+                "PHYS180": [
+                        "Introduction to Physics"
+                ],
+                "SCIN120": [
+                        "Foundations of Scientific Inquiry Laboratory"
+                ],
+                "SCIN130": [
+                        "Introduction to Biology with Lab"
+                ],
+                "SCIN131": [
+                        "Introduction to Chemistry with Lab"
+                ],
+                "SCIN132": [
+                        "Introduction to Human Anatomy & Physiology with Lab"
+                ],
+                "SCIN133": [
+                        "Introduction to Physics with Lab"
+                ],
+                "SCIN134": [
+                        "Introduction to Astronomy with Lab"
+                ],
+                "SCIN137": [
+                        "Introduction to Meteorology with Lab"
+                ],
+                "SCIN138": [
+                        "Introduction to Physical Geology with Lab"
+                ],
+                "SCIN140": [
+                        "Introduction to Environmental Science with Lab"
+                ],
+                "SCIN202": [
+                        "Introduction to Microbiology"
+                ],
+                "SCIN206": [
+                        "Marine Biology"
+                ],
+                "SCIN211": [
+                        "Principles of Genetics with Lab"
+                ],
+                "SCIN233": [
+                        "Physics I with Lab"
+                ],
+                "SCIN234": [
+                        "Physics II with Lab"
+                ],
+                "SCIN255": [
+                        "Principles of Pathophysiology and Pharmacology"
+                ],
+                "SCIN261": [
+                        "Introduction to Planetary Science with Lab"
+                ],
+                "SCIN310": [
+                        "Vertebrate Zoology"
+                ],
+                "SCIN311": [
+                        "Fishery Biology"
+                ],
+                "SCIN314": [
+                        "Botany"
+                ],
+                "SCIN316": [
+                        "Plant Identification, Taxonomy, and Systematics"
+                ],
+                "SCIN400": [
+                        "Research Methods in Natural Sciences"
+                ],
+                "SCIN401": [
+                        "Mammalogy"
+                ],
+                "SCIN402": [
+                        "Ornithology"
+                ],
+                "SCIN403": [
+                        "Plant Science"
+                ],
+                "SCIN490": [
+                        "Independent Study"
+                ],
+                "SCIN499": [
+                        "Senior Seminar in Natural Science"
+                ]
+        },
+        "Science and Society": {
+                "STEM100": [
+                        "Introduction to STEM Disciplines"
+                ],
+                "STEM185": [
+                        "The History and Context of STEM"
+                ],
+                "STEM194": [
+                        "STEM Special Topics for Associate Students"
+                ],
+                "STEM195": [
+                        "STEM Internship for Associate Students"
+                ],
+                "STEM270": [
+                        "Thinking and Acting Ethically"
+                ],
+                "STEM280": [
+                        "Exploring Society and Cultures via Science Fiction"
+                ],
+                "STEM380": [
+                        "Coevolution of Society, Culture, and Technology"
+                ],
+                "STEM470": [
+                        "Cybersecurity, Surveillance, Privacy and Ethics"
+                ],
+                "STEM471": [
+                        "Analytics, Algorithms, AI, and Humanity"
+                ],
+                "STEM494": [
+                        "STEM Special Topics for Bachelors Students"
+                ],
+                "STEM495": [
+                        "STEM Internship for Bachelors Student"
+                ]
+        },
+        "Security Management": {
+                "SCMT101": [
+                        "Introduction to Security Management"
+                ],
+                "SCMT150": [
+                        "Transportation and Border Security"
+                ],
+                "SCMT301": [
+                        "Foundations of U.S. Government Security"
+                ],
+                "SCMT302": [
+                        "Protecting U.S. Government Facilities"
+                ],
+                "SCMT303": [
+                        "U. S. Government Personnel Security"
+                ],
+                "SCMT319": [
+                        "Global Terrorism"
+                ],
+                "SCMT370": [
+                        "Principles and Theory of Security Issues"
+                ],
+                "SCMT371": [
+                        "Legal and Ethical Issues in Security Management"
+                ],
+                "SCMT373": [
+                        "Evaluation of Security Programs"
+                ],
+                "SCMT374": [
+                        "Contemporary Issues in Security Management"
+                ],
+                "SCMT379": [
+                        "School and Campus Security"
+                ],
+                "SCMT390": [
+                        "Security Administration"
+                ],
+                "SCMT392": [
+                        "Industrial Espionage"
+                ],
+                "SCMT396": [
+                        "Protective Services"
+                ],
+                "SCMT397": [
+                        "Physical Security"
+                ],
+                "SCMT491": [
+                        "Independent Study: Security Management"
+                ],
+                "SCMT498": [
+                        "Senior Seminar in Security Managemen"
+                ]
+        },
+        "Social Science": {
+                "ANTH100": [
+                        "Introduction to Anthropology"
+                ],
+                "ANTH200": [
+                        "World Archaeology"
+                ],
+                "ANTH202": [
+                        "Introduction to Cultural Anthropology"
+                ],
+                "ANTH203": [
+                        "Introduction to Forensic Anthropology"
+                ],
+                "GEOG101": [
+                        "Introduction to Geography"
+                ],
+                "SOCI490": [
+                        "Independent Study: Social Scienc"
+                ]
+        },
+        "Sociology": {
+                "SOCI111": [
+                        "Introduction to Sociology"
+                ],
+                "SOCI212": [
+                        "Social Problems"
+                ],
+                "SOCI213": [
+                        "Society, Interaction, and the Individual"
+                ],
+                "SOCI214": [
+                        "Stratification and Inequality"
+                ],
+                "SOCI215": [
+                        "Social Deviance"
+                ],
+                "SOCI220": [
+                        "American Popular Culture"
+                ],
+                "SOCI303": [
+                        "Classical Sociological Theory"
+                ],
+                "SOCI305": [
+                        "Contemporary Sociological Theory"
+                ],
+                "SOCI306": [
+                        "Race and Ethnicity"
+                ],
+                "SOCI307": [
+                        "Sociology of Aging"
+                ],
+                "SOCI311": [
+                        "Political Sociology"
+                ],
+                "SOCI312": [
+                        "Organizational Sociology"
+                ],
+                "SOCI315": [
+                        "Food and Culture"
+                ],
+                "SOCI331": [
+                        "Research Methods for Sociology"
+                ],
+                "SOCI332": [
+                        "Statistics for Social Science"
+                ],
+                "SOCI403": [
+                        "Social Change"
+                ],
+                "SOCI404": [
+                        "Gender and Society"
+                ],
+                "SOCI420": [
+                        "Sociology of Religion"
+                ],
+                "SOCI421": [
+                        "Sociology of the Family"
+                ],
+                "SOCI422": [
+                        "Sociology of the Law"
+                ],
+                "SOCI423": [
+                        "Sociology of Health and Illness"
+                ],
+                "SOCI424": [
+                        "Sociology of Death and Dying"
+                ],
+                "SOCI491": [
+                        "Sociology Independent Study"
+                ],
+                "SOCI498": [
+                        "Senior Seminar in Sociolog"
+                ]
+        },
+        "Space Studies": {
+                "SPST180": [
+                        "Introduction to Astronomy"
+                ],
+                "SPST200": [
+                        "Introduction to Space Studies"
+                ],
+                "SPST201": [
+                        "Introduction to Space Flight"
+                ],
+                "SPST203": [
+                        "History of Space Flight"
+                ],
+                "SPST304": [
+                        "National Space Organization"
+                ],
+                "SPST305": [
+                        "Introduction to Orbital Mechanics"
+                ],
+                "SPST306": [
+                        "Human Space Flight"
+                ],
+                "SPST307": [
+                        "Space Policy"
+                ],
+                "SPST310": [
+                        "Rocket Propulsion"
+                ],
+                "SPST330": [
+                        "Launch and Reentry Systems"
+                ],
+                "SPST340": [
+                        "Tools of the Observatory"
+                ],
+                "SPST341": [
+                        "Tools of the Planetarium"
+                ],
+                "SPST415": [
+                        "Space Station Systems and Operations"
+                ],
+                "SPST425": [
+                        "Satellite and Spacecraft Systems"
+                ],
+                "SPST435": [
+                        "Planetary and Space Exploration"
+                ],
+                "SPST440": [
+                        "Stars and Galaxies"
+                ],
+                "SPST445": [
+                        "Space Transportation Systems"
+                ],
+                "SPST465": [
+                        "Space Weather "
+                ],
+                "SPST485": [
+                        "Space Wargaming"
+                ],
+                "SPST499": [
+                        "Senior Seminar in Space Studie"
+                ]
+        },
+        "Sports and Health": {
+                "SPHE295": [
+                        "Foundations of Nutrition"
+                ],
+                "SPHE314": [
+                        "Exercise Physiology"
+                ],
+                "SPHE315": [
+                        "Training and Conditioning"
+                ],
+                "SPHE316": [
+                        "Sports and Recreation Facility Management"
+                ],
+                "SPHE317": [
+                        "Sports Medicine"
+                ],
+                "SPHE318": [
+                        "Coaching Theory and Methodology"
+                ],
+                "SPHE319": [
+                        "Sports and Drugs"
+                ],
+                "SPHE320": [
+                        "Nutrition"
+                ],
+                "SPHE323": [
+                        "Sports Conditioning"
+                ],
+                "SPHE324": [
+                        "Biomechanics"
+                ],
+                "SPHE326": [
+                        "Ethics in Sports"
+                ],
+                "SPHE350": [
+                        "Coaching Baseball Technical and Tactical Skills"
+                ],
+                "SPHE351": [
+                        "Coaching Basketball Technical and Tactical Skills"
+                ],
+                "SPHE352": [
+                        "Coaching Football Technical and Tactical Skills"
+                ],
+                "SPHE379": [
+                        "Contemporary and Social Issues in Sport"
+                ],
+                "SPHE400": [
+                        "Sports Management Foundations"
+                ],
+                "SPHE405": [
+                        "Sports First Aid"
+                ],
+                "SPHE412": [
+                        "Sports Finance"
+                ],
+                "SPHE413": [
+                        "Sports Marketing"
+                ],
+                "SPHE416": [
+                        "Athletic Programs Administration"
+                ],
+                "SPHE417": [
+                        "Leadership Concepts in Coaching"
+                ],
+                "SPHE420": [
+                        "Exercise Programming and Testing"
+                ],
+                "SPHE421": [
+                        "Kinesiology"
+                ],
+                "SPHE425": [
+                        "Therapeutic Exercise"
+                ],
+                "SPHE430": [
+                        "Sports Communication"
+                ],
+                "SPHE440": [
+                        "Sports Event Management and Planning"
+                ],
+                "SPHE450": [
+                        "Sports Governance"
+                ],
+                "SPHE455": [
+                        "Ticket Sales Management"
+                ],
+                "SPHE460": [
+                        "Business Aspects of Fitness and Wellness"
+                ],
+                "SPHE461": [
+                        "Current Issues and Trends in Fitness and Wellness"
+                ],
+                "SPHE490": [
+                        "Senior Seminar in Sports and Health Scienc"
+                ]
+        },
+        "Sports Management": {
+                "SPHE491": [
+                        "Senior Seminar in Sports Management"
+                ],
+                "SPMT200": [
+                        "Foundations of Sports Management"
+                ],
+                "SPMT316": [
+                        "Sports and Recreation Facility Management"
+                ],
+                "SPMT326": [
+                        "Ethics in Sports"
+                ],
+                "SPMT379": [
+                        "Contemporary and Social Issues in Sport"
+                ],
+                "SPMT410": [
+                        "Applied Concepts in Sports Finance"
+                ],
+                "SPMT413": [
+                        "Sports Marketing"
+                ],
+                "SPMT416": [
+                        "Athletic Programs Administration"
+                ],
+                "SPMT430": [
+                        "Sports Communication"
+                ],
+                "SPMT440": [
+                        "Sports Event Management and Planning"
+                ],
+                "SPMT450": [
+                        "Sports Governance"
+                ],
+                "SPMT455": [
+                        "Ticket Sales Management"
+                ],
+                "SPMT491": [
+                        "Senior Seminar in Sports Managemen"
+                ]
+        },
+        "Supply Chain Management": {
+                "SCMG201": [
+                        "Principles of Supply Chain Management"
+                ],
+                "SCMG301": [
+                        "Supply Chain Risk Management"
+                ],
+                "SCMG305": [
+                        "Global Demand Managemen"
+                ]
+        },
+        "Transportation and Logistics": {
+                "TLMT311": [
+                        "Introduction to Transportation Management"
+                ],
+                "TLMT312": [
+                        "Transportation Economics"
+                ],
+                "TLMT313": [
+                        "Supply Chain Management"
+                ],
+                "TLMT318": [
+                        "Hazardous Materials Transportation"
+                ],
+                "TLMT331": [
+                        "Fundamentals of Intermodal Transportation"
+                ],
+                "TLMT341": [
+                        "Logistics Management"
+                ],
+                "TLMT342": [
+                        "International Logistics Management"
+                ],
+                "TLMT351": [
+                        "Packaging"
+                ],
+                "TLMT352": [
+                        "Distribution Systems"
+                ],
+                "TLMT353": [
+                        "Logistics Management and Operations"
+                ],
+                "TLMT381": [
+                        "Hazardous Materials Management"
+                ],
+                "TLMT405": [
+                        "Best Practices in Reverse Logistics"
+                ],
+                "TLMT411": [
+                        "Air Transportation"
+                ],
+                "TLMT415": [
+                        "Airport Operations"
+                ],
+                "TLMT416": [
+                        "Air Cargo Operations and Security"
+                ],
+                "TLMT441": [
+                        "Advanced Business Logistics"
+                ],
+                "TLMT442": [
+                        "International Trade and Regulations"
+                ],
+                "TLMT498": [
+                        "Senior Seminar in Transportation and Logistic"
+                ]
+        }
 }
