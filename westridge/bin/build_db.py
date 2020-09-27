@@ -98,7 +98,7 @@ def populate_states(conn):
         raise Exception(f'An error occurred while populating the states.')
 
 
-def populate_users(conn, num_users=10):
+def populate_users(conn, num_users=10, role=None):
     if conn == None:
         raise Exception(f'conn argument may not be NoneType.')
     if not type(num_users) is int:
@@ -136,27 +136,43 @@ def populate_users(conn, num_users=10):
             execute_sql(conn, sql)
 
             # Create the user's role
-            roles_json = loads(open(abspath(join(script_path, '..', 'data', \
-                'roles.json')), 'r').read())
-            roles_list = roles_json['roles']
-            roles_prob_list = []
-            for i in roles_list:
-                for x in range(0, roles_list[i]['ratio']):
-                    roles_prob_list.append(i)
-            
-            # Get the role id
-            role_sql = "SELECT role_id FROM roles WHERE role_name = " \
-                f"'{roles_prob_list[randint(0, len(roles_prob_list) - 1)]}'"
-            a = execute_sql(conn, role_sql)
-            role_id = a[0]
+            try:
+                if role == None:
+                    roles_json = loads(open(abspath(join(script_path, '..', 'data', \
+                        'roles.json')), 'r').read())
+                    roles_list = roles_json['roles']
+                    roles_prob_list = []
+                    for i in roles_list:
+                        for x in range(0, roles_list[i]['ratio']):
+                            roles_prob_list.append(i)
+                    
+                    # Get the role id
+                    role_sql = "SELECT role_id FROM roles WHERE role_name = " \
+                        f"'{roles_prob_list[randint(0, len(roles_prob_list) - 1)]}'"
+                    a = execute_sql(conn, role_sql)
+                    role_id = a[0]
 
-            # Create the user's assigned role record
-            sql = "INSERT INTO roles_assigned (role_id, user_id) VALUES (" \
-                f"{role_id}, {user_id});"
-            execute_sql(conn, sql)
+                    # Create the user's assigned role record
+                    sql = "INSERT INTO roles_assigned (role_id, user_id) VALUES (" \
+                        f"{role_id}, {user_id});"
+                    execute_sql(conn, sql)
+                else:
+                     # Create the user's assigned role record
+                    sql = "INSERT INTO roles_assigned (role_id, user_id) VALUES (" \
+                        f"{role}, {user_id});"
+                    execute_sql(conn, sql)
+            except:
+                raise Exception(f'An error occurred while assigning the ' \
+                f'user\'s role: {role}.')
+            
+            finally:
+                pass
 
     except:
         raise Exception("An error occurred while populating the users.")
+    
+    finally:
+        pass
 
 
 def populate_roles(conn):
@@ -269,7 +285,44 @@ def populate_term_courses(conn, number=1000):
             execute_sql(conn, sql)
 
     except:
-        raise Exception('Oops')
+        raise Exception(f'An error occurred while populating the term courses.')
+    finally:
+        pass
+
+
+def populate_enrollments(conn):
+    if conn == None:
+        raise Exception(f'conn argument may not be NoneType.')
+    try:
+        termcrses_sql = "SELECT term_crs_id FROM term_courses;"
+        users_sql = "SELECT users.user_id FROM users INNER JOIN " \
+        "roles_assigned ON users.user_id = roles_assigned.user_id WHERE " \
+        "roles_assigned.role_id = 1;"
+        cur = conn.cursor()
+
+        #Store SELECT results for term courses
+        cur.execute(termcrses_sql)
+        termcrses = cur.fetchall()
+
+        #Store SELECT results for users
+        cur.execute(users_sql)
+        users = cur.fetchall()
+
+        # Iterate through each term course, assigning students at random
+        for i in termcrses:
+            tmp_users = list(users) # create a tmp users list to reduce duplicates
+            num_students = randint(10, 20)
+            for student in range(0, num_students):
+                student_id = tmp_users[randint(0, len(tmp_users) - 1)]
+                sql = f'INSERT INTO enrollments (user_id, term_crs_id, ' \
+                f'payment_status_id) VALUES ({student_id[0]}, {i[0]}, 2);'
+                tmp_users.remove(student_id)
+
+                execute_sql(conn, sql)
+                #print(f'{sql}')
+    except:
+        raise Exception(f'An error occurred while populating the enrollments.')
+    
     finally:
         pass
 
@@ -294,8 +347,9 @@ conn = connect(host=conn_obj.host, user=conn_obj.user, passwd=conn_obj.passwd, \
 #populate_countries(conn)
 #populate_states(conn)
 #populate_roles(conn)
-#populate_users(conn, 400)
+#populate_users(conn, 400, 1)
 #populate_degree_types(conn)
 #populate_terms(conn)
 #populate_courses(conn)
-populate_term_courses(conn, 1000)
+#populate_term_courses(conn, 1000)
+#populate_enrollments(conn)
